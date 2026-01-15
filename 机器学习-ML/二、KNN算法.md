@@ -14,7 +14,7 @@
 
 K-近邻算法（K Nearest Neighbor，简称KNN）。比如：根据你的“邻居”来推断出你的类别
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/e721a0358da9417092b9cc0864df1e61.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=053ec8924a0a1b6d675fed7cb9c44aa3187aabcb)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/e721a0358da9417092b9cc0864df1e61.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=8e2b70ed6f5d215b41e9e826ed7de6e4be7ada71)
 
 KNN算法思想：如果一个样本在特征空间中的 k 个最相似的样本中的大多数属于某一个类别，则该样本也属于这个类别
 
@@ -24,15 +24,15 @@ KNN算法思想：如果一个样本在特征空间中的 k 个最相似的样�
 
 利用K近邻算法预测电影类型
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/b457e59ad5c9409eb479ecc3f7dc3b61.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=5568249f2a33c9826322286d1434763dd455a2a7)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/b457e59ad5c9409eb479ecc3f7dc3b61.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=39d399de44d482df0a2063e230be1a8afe94c0f5)
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/508a267711364062897e6a0a41a3363d.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=7f0bc0d2b8cc77063d5847ddeef2680832395b6e)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/508a267711364062897e6a0a41a3363d.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=749d8d96a9004a4905be9a8ae14cb6f29f35a18f)
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/1b291f4d860f4941a5d6762ae8ae4faa.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=39a422f8f95f6a2a5135a94322777f482d913cea)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/1b291f4d860f4941a5d6762ae8ae4faa.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=e2db1a663daedea9594f72d7493bc1c7d63c35c4)
 
 ### 【知道】K值的选择
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/bd867b66b2b54d2cb5d9d8b15ab64952.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=fdd8f0dc5fcafa804b9b1821c230816bacb6abb4)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/bd867b66b2b54d2cb5d9d8b15ab64952.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=021f71c9fbfd98951cb6f52774ef3bcbf2cd7a38)
 
 ### 【知道】KNN的应用方式
 
@@ -44,7 +44,7 @@ KNN算法思想：如果一个样本在特征空间中的 k 个最相似的样�
 
 - 分类问题的处理流程：
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/2191c76e79154eb6877ab82e7e17de26.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=106b87ca563c10867508fe67750cd743eb130a94)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/2191c76e79154eb6877ab82e7e17de26.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=1b23df7f2732ef9f6c80912a8995ea40f28c3344)
 
 1.计算未知样本到每一个训练样本的距离
 
@@ -58,7 +58,7 @@ KNN算法思想：如果一个样本在特征空间中的 k 个最相似的样�
 
 - 回归问题的处理流程：
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/c08e2ebb710442d69952fdbe2dcc373f.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=e47d30cb0415bbb302cbfb770813dc076cfc1e19)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/c08e2ebb710442d69952fdbe2dcc373f.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=f0e5df1f896d934ddaf64ab55f5734e9fd449f2c)
 
 1.计算未知样本到每一个训练样本的距离
 
@@ -124,21 +124,21 @@ Python
 
 ### 【掌握】欧式距离
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/adec481b840e447ea04835078ac9e986.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=8949555b5c26dba25b93a9428822403eee832963)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/adec481b840e447ea04835078ac9e986.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=7fd73496cacfdaca600789e658310960f367c328)
 
 ### 【掌握】曼哈顿距离
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/6a82b7a9e775400fae8a93e9c98ddee3.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=580129f45fe204d343004fb36555f3264bf172e8)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/6a82b7a9e775400fae8a93e9c98ddee3.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=68cb00e8a9b76437d0b3e287522ab98c3a4b080c)
 
 ### 【了解】切比雪夫距离
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/57bb72149b1e494facc4386d0f3f9fdc.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=c27e1dfd14b065a4ebe7f602f5d23bfb145582cd)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/57bb72149b1e494facc4386d0f3f9fdc.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=2515dda0f424f359f09cc2ca8588d013ea260d4e)
 
 ### 【了解】闵氏距离
 
 •闵可夫斯基距离 Minkowski Distance 闵氏距离，不是一种新的距离的度量方式。而是距离的组合 是对多个距离度量公式的概括性的表述
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/d03428be1405413facdcfb7a95d3754f.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=a5049f7216b5aae977bfc316c7156f4a6a304a76)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/d03428be1405413facdcfb7a95d3754f.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=0411a1dc8d11a9ae8e3a29190b01a6acd2c511af)
 
 ## 特征预处理
 
@@ -154,15 +154,15 @@ Python
 
 ### 【知道】为什么进行归一化、标准化
 
-特征的**单位或者大小相差较大，或者某特征的方差相比其他的特征要大出几个数量****级**，**容易影响（支配）目标结果**，使得一些模型（算法）无法学习到其它的特征。
+特征的**单位或者大小相差较大，或者某特征的方差相比其他的特征要大出几个数量级**，**容易影响（支配）目标结果**，使得一些模型（算法）无法学习到其它的特征。
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/26bef759d4b3411a8948c7fdd0806a0c.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=133ae5fdc62e76e6f22ba1dcbdc1e43d157631df)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/26bef759d4b3411a8948c7fdd0806a0c.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=442fbb5e4c443b5e0a3d46aad5a3bf93d04fa983)
 
 ### 【掌握】归一化
 
 通过对原始数据进行变换把数据映射到【mi,mx】(默认为[0,1])之间
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/50be82db97574446a63fbe7f7d1bea79.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=ebcd3b5127730b8bba3be9959f97194f2db6664e)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/50be82db97574446a63fbe7f7d1bea79.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=ed040ab38df7773e388fbb8dbf41b35f0ddd63e0)
 
 数据归一化的API实现
 
@@ -182,7 +182,7 @@ feature_range 缩放区间
 
 通过对原始数据进行标准化，转换为均值为0标准差为1的标准正态分布的数据
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/8af6476bd9a74d3d98804e6fe6b6f47e.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=0391657f07a10119baa07ae6538ae01e3cc0b109)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/8af6476bd9a74d3d98804e6fe6b6f47e.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=be21c8d8f109e6624386f8037e3100fcb297be17)
 
 - mean 为特征的平均值
 
@@ -214,11 +214,11 @@ Python
 
 鸢尾花Iris Dataset数据集是机器学习领域经典数据集，鸢尾花数据集包含了150条鸢尾花信息，每50条取自三个鸢尾花中之一：Versicolour、Setosa和Virginica
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/5415cf3db8fc4486b36cef90977877c5.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=ba0435c505225c481ba2ac24f0a846ecbe8a8187)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/5415cf3db8fc4486b36cef90977877c5.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=fa2dfd705261e52165bc14bfd0334501f7542f71)
 
 每个花的特征用如下属性描述：
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/6fdd4beb46854c38a5689f921a5f2a85.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=3a2cdc5972f0efd8f5046e62dea0d771bc459d1a)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/6fdd4beb46854c38a5689f921a5f2a85.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=f39982944e472746334081bb3f0d16142c90c7b4)
 
 代码实现：
 
@@ -267,7 +267,7 @@ Python
 
 交叉验证是一种数据集的分割方法，将训练集划分为 n 份，其中一份做验证集、其他n-1份做训练集集
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/7913a875a3f14037a2fd08460bfa97b6.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=27d087555b7ffc24d7dc00f4ff5c9aa3845b7b12)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/7913a875a3f14037a2fd08460bfa97b6.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=163f99c3772f0f85e0cad455b8c5c9bdfdb0d974)
 
 **交叉验证法原理**：将数据集划分为 cv=10 份：
 
@@ -283,13 +283,13 @@ Python
 
 ### 【知道】网格搜索
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/d261aa1c32a047748c04d264dc0bf899.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=de13dad23049e8c90578404492230ed282ef0d76)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/d261aa1c32a047748c04d264dc0bf899.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=b4aa577ee7ab9923de1807f2c55cda1675d3371e)
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/0f99dce7b7d742c7b641eb5840f0fc12.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=b95c6f6dbb84e6103ff96290d568832db1999342)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/0f99dce7b7d742c7b641eb5840f0fc12.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=d13bc2898f8462b4cf787d3c2bc1a57608f7f2a7)
 
 交叉验证网格搜索的API:
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/d1844ba8ae424d09919a3a40e02042c9.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=78aa52eb157ec5e8e67c96efc7bc89a5559b2311)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/d1844ba8ae424d09919a3a40e02042c9.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=bfac5671ca8c052e481f2a3bd1421e950e4ce5e5)
 
 交叉验证网格搜索在鸢尾花分类中的应用：
 
@@ -310,7 +310,7 @@ Python
 
 ### 利用KNN算法实现手写数字识别
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/de1a05d6ced04ce09c4b5d38c6d3496e.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=3cd00701d796964dd95cf4aff4d0a4605a346763)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/de1a05d6ced04ce09c4b5d38c6d3496e.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=8aba096e3a352cc06c13cade1b8e6ce444fd68a7)
 
 MNIST手写数字识别 是计算机视觉领域中 "hello world"级别的数据集
 
@@ -342,7 +342,7 @@ Python
 
 数据集示例如下:
 
-![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/0b1db278d61b4ddeadfd3497222e6f68.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768014107;1768042907&q-key-time=1768014107;1768042907&q-header-list=&q-url-param-list=&q-signature=ccd9e41d62a72f515273b8abff6e1adc27db67be)
+![](https://ima-notebook-prod.image.myqcloud.com/2/euj3C84o4TSOPtfpda0fYP/0b1db278d61b4ddeadfd3497222e6f68.webp?q-sign-algorithm=sha1&q-ak=AKID9IDtLZZKqGRO7hVFnMn0zjXTXovoTtAN&q-sign-time=1768453434;1768482234&q-key-time=1768453434;1768482234&q-header-list=&q-url-param-list=&q-signature=e9b0f659eb3fa9397a001b95831bbbfd80cd0e9c)
 
 ```
 import matplotlib.pyplot as pltimport pandas as pdfrom sklearn.model_selection import train_test_splitfrom sklearn.neighbors import KNeighborsClassifierimport joblibfrom collections import Counter
