@@ -1,0 +1,23 @@
+{
+  "id": "conv-1768965722709-fdui2x7lg",
+  "title": "hello",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1768965722710,
+  "updatedAt": 1768965730083,
+  "lastResponseAt": 1768965730083,
+  "sessionId": "711c4bf9-7b10-468b-9102-25822719a08c",
+  "sdkSessionId": "711c4bf9-7b10-468b-9102-25822719a08c",
+  "currentNote": "机器学习-ML/九、朴素贝叶斯.md",
+  "usage": {
+    "model": "deepseek-chat",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  },
+  "displayContentMap": {
+    "msg-1768965722709-gaoself": "hello"
+  }
+}

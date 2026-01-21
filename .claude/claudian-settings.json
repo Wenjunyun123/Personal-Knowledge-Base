@@ -39,8 +39,8 @@
     ]
   },
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
+  "model": "deepseek-chat",
+  "thinkingBudget": "low",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "show1MModel": false,
@@ -52,7 +52,7 @@
     "~/Downloads"
   ],
   "persistentExternalContextPaths": [],
-  "environmentVariables": "",
+  "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com\n\nANTHROPIC_API_KEY=sk-8480aa02e943462092b32f5304b8a024\n\nANTHROPIC_MODEL=deepseek-chat",
   "envSnippets": [
     {
       "id": "snippet-1768965650894",
@@ -73,7 +73,7 @@
   "loadUserClaudeSettings": true,
   "lastClaudeModel": "haiku",
   "lastCustomModel": "",
-  "lastEnvHash": "",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com|ANTHROPIC_MODEL=deepseek-chat",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true
