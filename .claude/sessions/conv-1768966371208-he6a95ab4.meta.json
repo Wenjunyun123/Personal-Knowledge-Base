@@ -1,15 +1,12 @@
 {
-  "id": "conv-1768966280913-6myqywge1",
+  "id": "conv-1768966371208-he6a95ab4",
   "title": "hello",
   "titleGenerationStatus": "failed",
-  "createdAt": 1768966280913,
-  "updatedAt": 1768966373233,
-  "lastResponseAt": 1768966373233,
+  "createdAt": 1768966371208,
+  "updatedAt": 1768966378213,
+  "lastResponseAt": 1768966378213,
   "sessionId": null,
-  "sdkSessionId": "bd0f7aa4-f1f9-418a-a9a1-dcd2d7804337",
-  "previousSdkSessionIds": [
-    "c037355c-8bd6-4b3a-a82e-6f9d8eb41d20"
-  ],
+  "sdkSessionId": "cb250759-5257-4d8c-a23c-78681edc680b",
   "currentNote": "机器学习-ML/九、朴素贝叶斯.md",
   "usage": {
     "model": "deepseek-chat",
@@ -21,7 +18,6 @@
     "percentage": 0
   },
   "displayContentMap": {
-    "9310bf56-fa58-4cc7-a629-f6fd2cbeec5a": "hello",
-    "msg-1768966358729-aiezkbj": "hello"
+    "msg-1768966371207-9yb3uwq": "hello"
   }
 }
