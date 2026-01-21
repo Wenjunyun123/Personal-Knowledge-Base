@@ -3,13 +3,16 @@
   "title": "你的底层大模型是哪个？",
   "titleGenerationStatus": "failed",
   "createdAt": 1768960398207,
-  "updatedAt": 1768962018566,
-  "lastResponseAt": 1768961241580,
+  "updatedAt": 1768965087118,
+  "lastResponseAt": 1768965087118,
   "sessionId": null,
-  "sdkSessionId": "7f18f900-b189-4157-8d17-c7783a4989ef",
+  "sdkSessionId": "e88fef84-73a9-4f7e-af0c-b52f7b4b5523",
+  "previousSdkSessionIds": [
+    "7f18f900-b189-4157-8d17-c7783a4989ef"
+  ],
   "currentNote": "机器学习-ML/九、朴素贝叶斯.md",
   "usage": {
-    "model": "haiku",
+    "model": "Minimax-2.1",
     "inputTokens": 0,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
@@ -18,6 +21,7 @@
     "percentage": 0
   },
   "displayContentMap": {
-    "01eec04a-9204-4cfa-b565-83d97f00c18e": "你的底层大模型是哪个？"
+    "01eec04a-9204-4cfa-b565-83d97f00c18e": "你的底层大模型是哪个？",
+    "msg-1768965077363-pp4ghda": "您好"
   }
 }
