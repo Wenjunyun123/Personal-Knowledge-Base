@@ -39,7 +39,7 @@
     ]
   },
   "permissionMode": "yolo",
-  "model": "haiku",
+  "model": "Minimax-2.1",
   "thinkingBudget": "off",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -52,7 +52,7 @@
     "~/Downloads"
   ],
   "persistentExternalContextPaths": [],
-  "environmentVariables": "",
+  "environmentVariables": "# Claudian 环境变量配置\n# 从 Claude Code 同步的模型配置\n# 默认使用 Minimax (Minimax-2.1)\nANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic\nANTHROPIC_API_KEY=sk-api-FH4rsZHYnqY_ceEASjg6NkXbkKkvvsmbG82cZASr6hNJkWuMplr2hUGAkoFXD1U3Gz55Wo8-vVpeWsjYENqXnLlt7Nd9Qyv8G1DOvlylT-KXwh3nUqg9h0Q\nANTHROPIC_MODEL=Minimax-2.1\n# 如果要切换到 DeepSeek,注释掉上面的三行,取消下面的注释:\n# ANTHROPIC_BASE_URL=https://api.deepseek.com\n# ANTHROPIC_API_KEY=sk-8480aa02e943462092b32f5304b8a024\n# ANTHROPIC_MODEL=deepseek-chat\n# 如果要切换到 Gemini,注释掉上面的三行,取消下面的注释:\n# ANTHROPIC_BASE_URL=https://generativelanguage.googleapis.com/v1beta\n# ANTHROPIC_API_KEY=AIzaSyAfI1tMlz-0j7eUFsGavLYBGgZSamJ8YmE\n# ANTHROPIC_MODEL=gemini-2.5-flash\n# 如果要切换到 智谱AI,注释掉上面的三行,取消下面的注释:\n# ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/paas/v4\n# ANTHROPIC_API_KEY=70a653c8547b4a379b14aeb0c73caecf.Qumx5h5SjA8alfMO\n# ANTHROPIC_MODEL=glm-4.7",
   "envSnippets": [],
   "customContextLimits": {},
   "keyboardNavigation": {
@@ -66,7 +66,7 @@
   "loadUserClaudeSettings": true,
   "lastClaudeModel": "haiku",
   "lastCustomModel": "",
-  "lastEnvHash": "",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic|ANTHROPIC_MODEL=Minimax-2.1",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true
