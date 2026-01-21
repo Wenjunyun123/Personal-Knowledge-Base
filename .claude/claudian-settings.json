@@ -60,7 +60,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "en",
+  "locale": "zh-CN",
   "claudeCliPath": "",
   "claudeCliPathsByHost": {},
   "loadUserClaudeSettings": true,
