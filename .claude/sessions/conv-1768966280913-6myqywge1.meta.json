@@ -1,12 +1,12 @@
 {
-  "id": "conv-1768965722709-fdui2x7lg",
+  "id": "conv-1768966280913-6myqywge1",
   "title": "hello",
   "titleGenerationStatus": "failed",
-  "createdAt": 1768965722710,
-  "updatedAt": 1768966048279,
-  "lastResponseAt": 1768965730083,
+  "createdAt": 1768966280913,
+  "updatedAt": 1768966288093,
+  "lastResponseAt": 1768966287841,
   "sessionId": null,
-  "sdkSessionId": "711c4bf9-7b10-468b-9102-25822719a08c",
+  "sdkSessionId": "c037355c-8bd6-4b3a-a82e-6f9d8eb41d20",
   "currentNote": "机器学习-ML/九、朴素贝叶斯.md",
   "usage": {
     "model": "deepseek-chat",
@@ -16,5 +16,8 @@
     "contextWindow": 200000,
     "contextTokens": 0,
     "percentage": 0
+  },
+  "displayContentMap": {
+    "msg-1768966280911-ymtx670": "hello"
   }
 }

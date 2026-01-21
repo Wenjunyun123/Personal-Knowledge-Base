@@ -52,7 +52,7 @@
     "~/Downloads"
   ],
   "persistentExternalContextPaths": [],
-  "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com\n\nANTHROPIC_API_KEY=sk-8480aa02e943462092b32f5304b8a024\n\nANTHROPIC_MODEL=deepseek-chat",
+  "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\n\nANTHROPIC_API_KEY=sk-8480aa02e943462092b32f5304b8a024\n\nANTHROPIC_MODEL=deepseek-chat",
   "envSnippets": [
     {
       "id": "snippet-1768965650894",
@@ -72,8 +72,8 @@
   "claudeCliPathsByHost": {},
   "loadUserClaudeSettings": true,
   "lastClaudeModel": "haiku",
-  "lastCustomModel": "",
-  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com|ANTHROPIC_MODEL=deepseek-chat",
+  "lastCustomModel": "deepseek-chat",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_MODEL=deepseek-chat",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true
