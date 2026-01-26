@@ -3,7 +3,7 @@
   "title": "hello",
   "titleGenerationStatus": "failed",
   "createdAt": 1768966280913,
-  "updatedAt": 1768966373233,
+  "updatedAt": 1768966900925,
   "lastResponseAt": 1768966373233,
   "sessionId": null,
   "sdkSessionId": "bd0f7aa4-f1f9-418a-a9a1-dcd2d7804337",
@@ -21,7 +21,6 @@
     "percentage": 0
   },
   "displayContentMap": {
-    "9310bf56-fa58-4cc7-a629-f6fd2cbeec5a": "hello",
-    "msg-1768966358729-aiezkbj": "hello"
+    "9310bf56-fa58-4cc7-a629-f6fd2cbeec5a": "hello"
   }
 }

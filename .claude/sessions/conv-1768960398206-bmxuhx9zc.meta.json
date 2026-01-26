@@ -3,7 +3,7 @@
   "title": "你的底层大模型是哪个？",
   "titleGenerationStatus": "failed",
   "createdAt": 1768960398207,
-  "updatedAt": 1768965719112,
+  "updatedAt": 1768966900929,
   "lastResponseAt": 1768965719112,
   "sessionId": null,
   "sdkSessionId": "f13816dd-c814-4083-b97e-ea23ecf0a066",
@@ -20,5 +20,8 @@
     "contextWindow": 200000,
     "contextTokens": 0,
     "percentage": 0
+  },
+  "displayContentMap": {
+    "01eec04a-9204-4cfa-b565-83d97f00c18e": "你的底层大模型是哪个？"
   }
 }

@@ -39,8 +39,8 @@
     ]
   },
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "low",
+  "model": "Minimax-2.1",
+  "thinkingBudget": "xhigh",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "show1MModel": false,
@@ -52,7 +52,7 @@
     "~/Downloads"
   ],
   "persistentExternalContextPaths": [],
-  "environmentVariables": " \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"deepseek-chat\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"deepseek-chat\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"deepseek-chat\",\n    \"ANTHROPIC_AUTH_TOKEN\": \"sk-8480aa02e943462092b32f5304b8a024\",\n    \"ANTHROPIC_BASE_URL\": \"https://api.deepseek.com/anthropic\",\n    \"API_TIMEOUT_MS\": \"3000000\",\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\"\n",
+  "environmentVariables": "ANTHROPIC_API_KEY=sk-api-FH4rsZHYnqY_ceEASjg6NkXbkKkvvsmbG82cZASr6hNJkWuMplr2hUGAkoFXD1U3Gz55Wo8-vVpeWsjYENqXnLlt7Nd9Qyv8G1DOvlylT-KXwh3nUqg9h0Q\nANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic\nANTHROPIC_MODEL=Minimax-2.1",
   "envSnippets": [
     {
       "id": "snippet-1768965650894",
@@ -73,7 +73,7 @@
   "loadUserClaudeSettings": true,
   "lastClaudeModel": "haiku",
   "lastCustomModel": "deepseek-chat",
-  "lastEnvHash": "",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic|ANTHROPIC_MODEL=Minimax-2.1",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true
