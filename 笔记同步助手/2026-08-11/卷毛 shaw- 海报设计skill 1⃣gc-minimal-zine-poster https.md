@@ -24,13 +24,13 @@ id: 921dabb9-af44-4ae4-8f2c-afc61ea30643
 4⃣scene-distillation-zine-v1-3  
 [github.com/Zeejay0/gathered-scenes-zi…](https://github.com/Zeejay0/gathered-scenes-zine-skill) [t.co/nmzaAAPEOS](https://t.co/nmzaAAPEOS)
 
-![](https://pbs.twimg.com/media/HPWJ-0EbcAACVRM.jpg)
+![[笔记同步助手/images/bce737889be1f01937a51a542f68cf6c_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HPWKQqmaYAEGWM6.jpg)
+![[笔记同步助手/images/80f9a6d28b50a8fe4db24b02dfb9b717_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HPWKTFkbQAALM9j.jpg)
+![[笔记同步助手/images/a1bd094d2000844149061f3d0cedb601_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HPWKetYawAAghKS.jpg)
+![[笔记同步助手/images/f70a5440670f034a36db3f34f0400a17_MD5.jpg]]
 
 ---
 

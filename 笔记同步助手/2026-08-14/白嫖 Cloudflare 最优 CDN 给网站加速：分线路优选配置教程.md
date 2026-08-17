@@ -40,7 +40,7 @@ Cloudflare 的 CDN 服务通过遍布全球的数据中心缓存网站的静态�
 4.  CDN 节点识别请求头中的 Host 等于 `tech-shrimp.com`，将请求路由到回退源地址 `origin.tech-shrimp.top`；
 5.  `origin.tech-shrimp.top` 解析到源服务器 IP，完成回源。
 
-![网络拓扑图：浏览器 → cdn.tech-shrimp.top（线路优选）→ Cloudflare CDN 节点（自定义主机回源）→ origin.tech-shrimp.top → 源服务器](https://relay-1.bijitongbu.site/p/303226f5a7892c50bbb29e19c0c7e19f.jpg)
+![[笔记同步助手/images/f5f3ffa348f079484de18b28b74eea74_MD5.jpg|网络拓扑图：浏览器 → cdn.tech-shrimp.top（线路优选）→ Cloudflare CDN 节点（自定义主机回源）→ origin.tech-shrimp.top → 源服务器]]
 
 网络拓扑图：浏览器 → cdn.tech-shrimp.top（线路优选）→ Cloudflare CDN 节点（自定义主机回源）→ origin.tech-shrimp.top → 源服务器
 
@@ -57,7 +57,7 @@ Cloudflare 的 CDN 服务通过遍布全球的数据中心缓存网站的静态�
 
 开启代理后，来自浏览器的数据会先经过 Cloudflare CDN 节点再到达源服务器，从而隐藏真实 IP 并提供免费 DDoS 防御。
 
-![Cloudflare DNS 页面添加 origin.tech-shrimp.top 的 A 记录并开启小黄云代理](https://relay-1.bijitongbu.site/p/4ee2fe37baeeea6f740cca3e455e1f73.jpg)
+![[笔记同步助手/images/930e6ff2c6329b526bdce59295dbff3a_MD5.jpg|Cloudflare DNS 页面添加 origin.tech-shrimp.top 的 A 记录并开启小黄云代理]]
 
 Cloudflare DNS 页面添加 origin.tech-shrimp.top 的 A 记录并开启小黄云代理
 
@@ -80,15 +80,15 @@ Cloudflare DNS 页面添加 origin.tech-shrimp.top 的 A 记录并开启小黄�
 
 保存后回到自定义主机名页面刷新，验证状态显示为绿色即表示配置完成。
 
-![Cloudflare SSL/TLS 自定义主机名页面，添加 tech-shrimp.com 作为自定义主机名](https://relay-1.bijitongbu.site/p/18e31cf249c7340385dce8cc2050a2de.jpg)
+![[笔记同步助手/images/b0e41a0df9a27c8629e4ed746f4dd989_MD5.jpg|Cloudflare SSL/TLS 自定义主机名页面，添加 tech-shrimp.com 作为自定义主机名]]
 
 Cloudflare SSL/TLS 自定义主机名页面，添加 tech-shrimp.com 作为自定义主机名
 
-![在主力域名 DNS 页面添加 TXT 验证记录](https://relay-1.bijitongbu.site/p/8f93fd40bc74633f187d0a39f63129ab.jpg)
+![[笔记同步助手/images/756b87ead7dfaa464116394831b34c11_MD5.jpg|在主力域名 DNS 页面添加 TXT 验证记录]]
 
 在主力域名 DNS 页面添加 TXT 验证记录
 
-![自定义主机名验证状态变为绿色、所有权验证通过](https://relay-1.bijitongbu.site/p/8d225a824186628160e993829ddc1319.jpg)
+![[笔记同步助手/images/d93c16e1c2bd26bdb9706d5cc12e275c_MD5.jpg|自定义主机名验证状态变为绿色、所有权验证通过]]
 
 自定义主机名验证状态变为绿色、所有权验证通过
 
@@ -105,7 +105,7 @@ Cloudflare SSL/TLS 自定义主机名页面，添加 tech-shrimp.com 作为自�
 
 完成后，访问 `cdn.tech-shrimp.top` 的流量会自动流经各自最优的 Cloudflare CDN 节点。
 
-![为 cdn.tech-shrimp.top 添加 CNAME 记录指向社区优选域名，并关闭小黄云](https://relay-1.bijitongbu.site/p/01af3284eca2885f52863dad9a18b248.jpg)
+![[笔记同步助手/images/9e4b36c60cc874a01d0be2785ba29df8_MD5.jpg|为 cdn.tech-shrimp.top 添加 CNAME 记录指向社区优选域名，并关闭小黄云]]
 
 为 cdn.tech-shrimp.top 添加 CNAME 记录指向社区优选域名，并关闭小黄云
 
@@ -120,7 +120,7 @@ Cloudflare SSL/TLS 自定义主机名页面，添加 tech-shrimp.com 作为自�
 
 至此所有配置完成。
 
-![为主域名 tech-shrimp.com 添加 CNAME 指向 cdn.tech-shrimp.top，且关闭小黄云](https://relay-1.bijitongbu.site/p/0bb5ba122fa34f7f57f5bc880b21ebc8.jpg)
+![[笔记同步助手/images/a83904b22872f3a66ee6df4d02fe3ebd_MD5.jpg|为主域名 tech-shrimp.com 添加 CNAME 指向 cdn.tech-shrimp.top，且关闭小黄云]]
 
 为主域名 tech-shrimp.com 添加 CNAME 指向 cdn.tech-shrimp.top，且关闭小黄云
 
@@ -135,15 +135,15 @@ Cloudflare SSL/TLS 自定义主机名页面，添加 tech-shrimp.com 作为自�
 
 而做了优选的主力域名 `tech-shrimp.com` 出口节点明显增多，按各家运营商线路做了优选，访问失败极少。
 
-![优选 CDN 后的测速结果：127 ms、无超时](https://relay-1.bijitongbu.site/p/0ddcc561ac25a031b738f9d5e0d15fdb.jpg)
+![[笔记同步助手/images/90c1e2d4d9f898e59a109bb6b757ac5a_MD5.jpg|优选 CDN 后的测速结果：127 ms、无超时]]
 
 优选 CDN 后的测速结果：127 ms、无超时
 
-![未做优选的 test.tech-shrimp.com 下载测试，22 次失败、出口节点仅两个](https://relay-1.bijitongbu.site/p/747bac4520ff70af7a8387b4fb485d7f.jpg)
+![[笔记同步助手/images/bb7643ef8c1b6df0b35d7260555032f9_MD5.jpg|未做优选的 test.tech-shrimp.com 下载测试，22 次失败、出口节点仅两个]]
 
 未做优选的 test.tech-shrimp.com 下载测试，22 次失败、出口节点仅两个
 
-![做了优选的主力域名下载测试：出口节点丰富，仅极少数失败](https://relay-1.bijitongbu.site/p/80cc568129f094df51a6abe1aa57fb7f.jpg)
+![[笔记同步助手/images/dd65c74c856508cd955e8a64b9e0f63e_MD5.jpg|做了优选的主力域名下载测试：出口节点丰富，仅极少数失败]]
 
 做了优选的主力域名下载测试：出口节点丰富，仅极少数失败
 
