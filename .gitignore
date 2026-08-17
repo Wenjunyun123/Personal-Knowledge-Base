@@ -1,2 +1,12 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Local Agent session and migration state
+.claude/sessions/
+.claude/claudian-settings.inner-before-flatten-*.json
+
+# Obsidian sync-helper backup data
+.obsidian/.obsidian-sync-helper-backup/
+
+# Malformed Windows reserved-name artifact
+/nul

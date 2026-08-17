@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="基于一手资料设计的 FDE 12 周可交互学习与作品集计划">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230c7c74%22/><text x=%2250%22 y=%2267%22 text-anchor=%22middle%22 font-size=%2252%22 fill=%22white%22>F</text></svg>">
+  <title>FDE Field Lab｜12 周交付型学习计划</title>
+  <style>
+    :root {
+      --ink: #14213d;
+      --muted: #60708c;
+      --paper: #f6f3ec;
+      --card: #fffdf8;
+      --line: #dcd7cb;
+      --brand: #0c7c74;
+      --brand-2: #e76f51;
+      --brand-soft: #dff1ed;
+      --navy: #0d1b2a;
+      --done: #277d5d;
+      --shadow: 0 18px 48px rgba(20, 33, 61, .09);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 90% 5%, rgba(12,124,116,.10), transparent 23rem),
+        linear-gradient(180deg, #f9f7f1 0, var(--paper) 35rem);
+      font-family: Inter, "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.6;
+    }
+    button, input, select, textarea { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    a { color: inherit; }
+    :focus-visible { outline: 3px solid rgba(231,111,81,.45); outline-offset: 3px; }
+
+    .hero { color: #f8fafc; background: var(--navy); overflow: hidden; position: relative; }
+    .hero::after {
+      content: ""; position: absolute; width: 32rem; height: 32rem; right: -9rem; top: -15rem;
+      border: 1px solid rgba(255,255,255,.14); border-radius: 50%; box-shadow: 0 0 0 4rem rgba(255,255,255,.025), 0 0 0 9rem rgba(255,255,255,.018);
+    }
+    .hero-inner { max-width: 1220px; margin: auto; padding: 58px 28px 44px; position: relative; z-index: 1; }
+    .eyebrow { margin: 0 0 12px; color: #65d3c8; text-transform: uppercase; letter-spacing: .18em; font-size: .76rem; font-weight: 800; }
+    h1 { max-width: 780px; margin: 0; font-family: Georgia, "Noto Serif SC", serif; font-size: clamp(2.35rem, 6vw, 5.5rem); line-height: .98; letter-spacing: -.045em; }
+    h1 span { color: #f4a261; }
+    .lede { max-width: 730px; margin: 24px 0 28px; color: #bac5d3; font-size: clamp(1rem, 2vw, 1.17rem); }
+    .hero-actions, .toolbar-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      border: 1px solid transparent; border-radius: 999px; padding: 10px 15px; cursor: pointer; font-weight: 750;
+      color: var(--ink); background: #fff; transition: transform .18s, background .18s, border-color .18s;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn.primary { color: #082e2a; background: #65d3c8; }
+    .btn.ghost { color: #eef4f8; background: transparent; border-color: #536276; }
+    .btn.subtle { background: #fff; border-color: var(--line); }
+    .btn.danger { color: #9a3412; background: #fff4ef; border-color: #fed7c7; }
+
+    .stats { max-width: 1220px; margin: -1px auto 0; padding: 0 28px; display: grid; grid-template-columns: repeat(4, 1fr); background: var(--navy); }
+    .stat { padding: 23px 18px 27px; border-top: 1px solid #354255; }
+    .stat + .stat { border-left: 1px solid #354255; }
+    .stat strong { display: block; color: #fff; font-size: 1.55rem; line-height: 1.2; }
+    .stat span { color: #93a2b5; font-size: .8rem; }
+
+    .shell { max-width: 1220px; margin: 0 auto; padding: 34px 28px 90px; }
+    .progress-panel { display: grid; grid-template-columns: 120px 1fr; gap: 28px; align-items: center; padding: 25px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .progress-ring { width: 112px; aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; background: conic-gradient(var(--brand) 0%, #e5e1d8 0); position: relative; }
+    .progress-ring::before { content: ""; position: absolute; inset: 11px; border-radius: 50%; background: var(--card); }
+    .progress-ring span { position: relative; font-weight: 900; font-size: 1.45rem; }
+    .progress-copy h2 { margin: 0 0 3px; font-size: 1.3rem; }
+    .progress-copy p { margin: 0 0 12px; color: var(--muted); }
+    .progress-track { height: 9px; background: #e9e5dc; border-radius: 99px; overflow: hidden; }
+    .progress-bar { height: 100%; width: 0; background: linear-gradient(90deg, var(--brand), #39a98f); transition: width .3s; }
+
+    .toolbar { margin: 22px 0 26px; display: grid; grid-template-columns: minmax(220px, 1fr) auto; gap: 12px; align-items: center; }
+    .filters { display: flex; flex-wrap: wrap; gap: 10px; }
+    .field { min-height: 44px; border: 1px solid var(--line); border-radius: 12px; padding: 9px 12px; color: var(--ink); background: #fff; }
+    .search { min-width: min(100%, 310px); flex: 1; }
+
+    .layout { display: grid; grid-template-columns: 245px minmax(0, 1fr); gap: 28px; align-items: start; }
+    .side { position: sticky; top: 18px; }
+    .side-card { padding: 16px; background: rgba(255,253,248,.88); border: 1px solid var(--line); border-radius: 16px; backdrop-filter: blur(8px); }
+    .side-title { margin: 0 0 10px; font-size: .75rem; letter-spacing: .13em; color: var(--muted); text-transform: uppercase; }
+    .phase-nav { display: grid; gap: 3px; }
+    .phase-nav a { display: grid; grid-template-columns: 31px 1fr auto; gap: 7px; align-items: center; padding: 7px 8px; border-radius: 9px; text-decoration: none; font-size: .82rem; }
+    .phase-nav a:hover { background: var(--brand-soft); }
+    .nav-week { color: var(--brand); font-weight: 900; }
+    .nav-count { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .principle { margin: 16px 0 0; padding: 13px; border-radius: 12px; background: var(--ink); color: #dfe7ef; font-size: .78rem; }
+    .principle strong { color: #65d3c8; }
+
+    .phase { margin: 0 0 34px; scroll-margin-top: 20px; }
+    .phase[hidden] { display: none; }
+    .phase-head { display: grid; grid-template-columns: 68px 1fr auto; gap: 14px; align-items: start; margin: 0 0 13px; }
+    .week-badge { padding: 8px 5px; border-radius: 12px; background: var(--ink); color: white; text-align: center; font-size: .72rem; font-weight: 900; letter-spacing: .04em; }
+    .phase h2 { margin: 0; font-family: Georgia, "Noto Serif SC", serif; font-size: clamp(1.3rem, 3vw, 1.8rem); line-height: 1.2; }
+    .phase-goal { margin: 3px 0 0; color: var(--muted); font-size: .9rem; }
+    .date-range { color: var(--muted); white-space: nowrap; font-size: .78rem; padding-top: 5px; }
+    .task-list { display: grid; gap: 9px; }
+    .task { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; transition: border-color .2s, opacity .2s; }
+    .task.done { opacity: .68; border-color: #b7d7ca; }
+    .task.done .task-title { text-decoration: line-through; text-decoration-color: #88aa9d; }
+    .task-main { display: grid; grid-template-columns: 28px 1fr auto; gap: 11px; align-items: start; padding: 15px 16px; }
+    .check { appearance: none; width: 22px; height: 22px; margin: 2px 0 0; border: 2px solid #a6adad; border-radius: 7px; cursor: pointer; display: grid; place-items: center; }
+    .check:checked { background: var(--done); border-color: var(--done); }
+    .check:checked::after { content: "✓"; color: #fff; font-weight: 900; line-height: 1; }
+    .task-title { margin: 0; font-weight: 750; line-height: 1.45; }
+    .task-meta { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 7px; color: var(--muted); font-size: .74rem; }
+    .pill { border-radius: 999px; padding: 2px 7px; background: #f0ede5; }
+    .pill.output { color: #8c3e28; background: #ffeadf; }
+    .note-toggle { border: 0; background: transparent; color: var(--brand); cursor: pointer; font-weight: 800; font-size: .78rem; padding: 4px; }
+    .task-notes { display: none; padding: 0 16px 15px 55px; }
+    .task.open .task-notes { display: block; }
+    .task-notes textarea { width: 100%; min-height: 78px; resize: vertical; border: 1px solid var(--line); border-radius: 10px; padding: 10px; background: #fbfaf6; }
+    .acceptance { margin: 11px 0 0; padding: 13px 14px; border-left: 4px solid var(--brand-2); border-radius: 0 11px 11px 0; background: #fff4ed; font-size: .85rem; }
+    .acceptance strong { color: #9a3412; }
+    .empty { display: none; padding: 45px 20px; text-align: center; color: var(--muted); background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius); }
+
+    .source-section { margin-top: 60px; padding-top: 34px; border-top: 1px solid var(--line); }
+    .section-kicker { color: var(--brand); font-weight: 900; text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; }
+    .source-section h2 { margin: 4px 0 8px; font-family: Georgia, "Noto Serif SC", serif; font-size: 2rem; }
+    .source-intro { max-width: 790px; margin: 0 0 22px; color: var(--muted); }
+    .sources { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .source { padding: 17px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+    .source-top { display: flex; justify-content: space-between; gap: 10px; }
+    .source a { color: var(--ink); font-weight: 850; text-decoration-color: #99c9c3; text-underline-offset: 4px; }
+    .source-kind { color: var(--brand); font-size: .7rem; font-weight: 850; white-space: nowrap; }
+    .source p { margin: 8px 0 0; color: var(--muted); font-size: .83rem; }
+    .boundary { margin-top: 18px; padding: 18px; border-radius: 14px; color: #f7eee8; background: #793f30; }
+    .boundary strong { color: #ffd0b8; }
+
+    .toast { position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 30px); opacity: 0; pointer-events: none; background: var(--ink); color: #fff; padding: 10px 15px; border-radius: 999px; box-shadow: var(--shadow); transition: .25s; z-index: 9; font-size: .85rem; }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    @media (max-width: 850px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .stat:nth-child(3) { border-left: 0; }
+      .layout { grid-template-columns: 1fr; }
+      .side { position: static; }
+      .phase-nav { grid-template-columns: repeat(3, 1fr); }
+      .principle { display: none; }
+      .toolbar { grid-template-columns: 1fr; }
+      .sources { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      .hero-inner, .stats, .shell { padding-left: 17px; padding-right: 17px; }
+      .progress-panel { grid-template-columns: 85px 1fr; gap: 16px; padding: 18px; }
+      .progress-ring { width: 82px; }
+      .progress-ring::before { inset: 8px; }
+      .phase-nav { grid-template-columns: repeat(2, 1fr); }
+      .phase-head { grid-template-columns: 58px 1fr; }
+      .date-range { display: none; }
+      .task-main { grid-template-columns: 26px 1fr; }
+      .note-toggle { grid-column: 2; justify-self: start; }
+      .task-notes { padding-left: 53px; }
+    }
+    @media print {
+      .hero-actions, .toolbar, .side, .note-toggle, .toast { display: none !important; }
+      body { background: white; }
+      .hero { background: white; color: var(--ink); }
+      .hero-inner { padding-bottom: 20px; }
+      .lede, .eyebrow { color: var(--muted); }
+      .stats { background: white; color: var(--ink); }
+      .stat strong { color: var(--ink); }
+      .layout { grid-template-columns: 1fr; }
+      .task, .phase { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">FDE Field Lab · Evidence-led roadmap</p>
+      <h1>从 AI Demo 到<br><span>业务结果</span></h1>
+      <p class="lede">一条围绕真实工作流、情境化评估、受控上线与可复用交付的 12 周路线。进度以作品和验证证据计算，而不是以“读完多少篇文章”计算。</p>
+      <div class="hero-actions">
+        <button class="btn primary" data-scroll="plan">开始本周任务</button>
+        <button class="btn ghost" data-scroll="sources">查看一手来源</button>
+      </div>
+    </div>
+    <div class="stats" aria-label="计划概览">
+      <div class="stat"><strong>13</strong><span>阶段（第 0–12 周）</span></div>
+      <div class="stat"><strong id="taskTotal">—</strong><span>可验证任务</span></div>
+      <div class="stat"><strong>8–12h</strong><span>建议每周投入</span></div>
+      <div class="stat"><strong id="sourceTotal">—</strong><span>核心一手入口</span></div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="progress-panel" aria-labelledby="progressTitle">
+      <div class="progress-ring" id="progressRing"><span id="progressPercent">0%</span></div>
+      <div class="progress-copy">
+        <h2 id="progressTitle">你的交付进度</h2>
+        <p><strong id="doneCount">0</strong> / <span id="allCount">0</span> 项完成 · <span id="nextHint">从第 0 周的问题基线开始</span></p>
+        <div class="progress-track" role="progressbar" aria-label="学习计划完成度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar" id="progressBar"></div></div>
+      </div>
+    </section>
+
+    <section class="toolbar" id="plan" aria-label="计划筛选与数据操作">
+      <div class="filters">
+        <label class="sr-only" for="search">搜索任务</label>
+        <input class="field search" id="search" type="search" placeholder="搜索任务、产出或验收标准…">
+        <label class="sr-only" for="statusFilter">状态筛选</label>
+        <select class="field" id="statusFilter">
+          <option value="all">全部状态</option>
+          <option value="open">仅未完成</option>
+          <option value="done">仅已完成</option>
+          <option value="output">仅关键产出</option>
+        </select>
+        <label class="sr-only" for="startDate">计划开始日期</label>
+        <input class="field" id="startDate" type="date" title="设置计划开始日期">
+      </div>
+      <div class="toolbar-actions">
+        <button class="btn subtle" id="exportBtn">导出进度</button>
+        <button class="btn subtle" id="importBtn">导入</button>
+        <input class="sr-only" id="importFile" type="file" accept="application/json">
+        <button class="btn danger" id="resetBtn">重置</button>
+      </div>
+    </section>
+
+    <div class="layout">
+      <aside class="side">
+        <div class="side-card">
+          <p class="side-title">交付地图</p>
+          <nav class="phase-nav" id="phaseNav" aria-label="周次导航"></nav>
+          <p class="principle"><strong>唯一主线：</strong>12 周始终围绕同一个真实工作流推进。没有真实用户时，必须把项目标成“模拟”，不要把练习包装成生产经验。</p>
+        </div>
+      </aside>
+      <div>
+        <div id="phaseList"></div>
+        <div class="empty" id="emptyState">没有匹配的任务。试试清除搜索或切换筛选条件。</div>
+      </div>
+    </div>
+
+    <section class="source-section" id="sources" aria-labelledby="sourceTitle">
+      <span class="section-kicker">Primary sources</span>
+      <h2 id="sourceTitle">先看来源，再形成观点</h2>
+      <p class="source-intro">下面只列来源所有者发布的岗位、工程、产品或规范材料。每张卡片说明它能支持什么，不把单家公司的做法冒充全行业标准。</p>
+      <div class="sources" id="sourceList"></div>
+      <div class="boundary"><strong>证据边界：</strong>原书 GitHub 对“这本书写了什么”是一手来源；对公司实践、行业数据和案例效果则是二手整理。附录中的媒体转引、第三方估算、单一来源与匿名综合只能作为检索线索，不能直接写成已证实事实。</div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const phases = [
+      { week: 0, title: '定题与基线', goal: '把“想做 AI”改写为一个可测量、可访问用户的真实工作流。', acceptance: '领域专家以文字确认问题与基线基本准确；否则不进入开发。', tasks: [
+        ['选择一个 4–8 周内可试点、能获得脱敏样本的工作流', '问题选择', 2, true],
+        ['完成 3 次用户或领域访谈，并画出现状工作流', '访谈纪要 + 流程图', 4, true],
+        ['写一页 Problem Brief：用户、触发、输入、痛点、基线、目标、非目标、风险', 'Problem Brief', 3, true],
+        ['定义 1 个业务主指标、2 个质量护栏，以及延迟与成本预算', '指标卡', 2, true]
+      ]},
+      { week: 1, title: '角色与交付链', goal: '建立端到端责任观，而不是把 FDE 理解成驻场写代码。', acceptance: '能用 5 分钟讲清：为什么这是运营结果项目，而不只是 AI Demo。', tasks: [
+        ['阅读 OpenAI FDE 岗位、Presence 部署链与 Palantir FDSE 定义', '阅读卡片', 2, false],
+        ['把项目拆为 discovery → scope → design → build → acceptance → rollout → improve → reuse', '交付地图', 2, true],
+        ['建立 Decision Log，记录范围、速度、质量之间的书面取舍', 'Decision Log', 2, true],
+        ['录制一次 5 分钟项目陈述并按“问题—用户—结果—风险”复盘', '陈述录像', 1, true]
+      ]},
+      { week: 2, title: '技术范围与业务语义', goal: '把数据、权限和业务动作连成一条可审计的闭环。', acceptance: '每个业务动作都有 owner、授权条件、失败处理和审计记录。', tasks: [
+        ['列出系统、数据源、业务对象、关系、动作、角色与权限', '业务语义表', 3, true],
+        ['绘制架构图与数据流图，并标出 PII / 机密数据边界', '架构与数据流图', 3, true],
+        ['定义人工审批、拒绝执行和升级路径', '人工接管设计', 2, true],
+        ['与用户复核范围，明确本期不做什么和哪些风险暂不接受', '范围确认', 1, false]
+      ]},
+      { week: 3, title: '最小端到端切片', goal: '用真实样本跑通 UI、服务、模型与工具，不停留在聊天回答。', acceptance: '脱敏真实样本能够从输入走到业务动作，并有可理解的失败反馈。', tasks: [
+        ['打通 UI → API → 模型 → 工具或数据 → 结果的最小路径', '可运行切片', 6, true],
+        ['使用结构化输出并做 schema 校验', 'Schema + 校验', 2, false],
+        ['实现超时、错误分类和面向用户的可恢复提示', '错误处理', 2, false],
+        ['建立单元测试与一个端到端 happy-path 测试', '自动测试', 3, true]
+      ]},
+      { week: 4, title: '情境化 Evals', goal: '在看结果之前先写清“什么算好、什么绝不能发生”。', acceptance: '关键失败可复现；上线阈值在测试前书面约定，不事后挑数字。', tasks: [
+        ['与领域专家定义质量 rubric 和不可接受错误', 'Rubric', 2, true],
+        ['建立含常见任务、边缘案例、越权、脏数据与工具失败的评估集', '版本化 Eval 集', 4, true],
+        ['固化 baseline，比较至少两种 prompt、模型或工作流方案', '对比报告', 3, true],
+        ['给失败样本分类并建立回归检查', '失败分类表', 2, false]
+      ]},
+      { week: 5, title: '检索、工具与集成', goal: '只在业务证据支持时增加复杂度，并把工具风险关在边界内。', acceptance: '无权限用户不能读取或修改受限数据；失败不会静默触发错误业务动作。', tasks: [
+        ['判断是否真的需要 RAG；若需要，记录引用、时效与来源权限', 'RAG 决策记录', 2, true],
+        ['为工具调用实现最小权限、参数校验、幂等与 dry-run / 确认', '安全工具层', 4, true],
+        ['模拟超时、限流、错误响应与数据缺失', '故障用例', 2, false],
+        ['检查第三方系统集成的认证、速率限制与数据契约', '集成清单', 2, false]
+      ]},
+      { week: 6, title: '安全、隐私与治理', goal: '让高风险动作、敏感数据和残余风险都有明确 owner。', acceptance: '高风险动作必须人工确认；测试日志无密钥或未脱敏敏感数据。', tasks: [
+        ['按 NIST AI 600-1 建轻量风险登记：概率、影响、控制、owner、残余风险', '风险登记表', 3, true],
+        ['覆盖 prompt injection、数据泄露、越权工具、供应链和日志泄密的威胁模型', '威胁模型', 3, true],
+        ['检查密钥、PII 脱敏、留存、审计、删除流程与依赖漏洞', '治理检查表', 3, false],
+        ['为高风险业务动作加入人工审批与可撤销机制', '控制证据', 3, true]
+      ]},
+      { week: 7, title: '生产可靠性', goal: '让一次请求可追踪、一次失败可定位、一个版本可回滚。', acceptance: '在预定时间内发现失败、定位一次请求并回滚到上一稳定版本。', tasks: [
+        ['加入 trace、日志和成功率、质量、延迟、成本、工具错误、升级率指标', '可观测面板', 4, true],
+        ['实现重试边界、熔断或降级，以及版本化配置', '可靠性控制', 3, false],
+        ['设计灰度发布与回滚路径', '发布方案', 2, true],
+        ['执行一次故障演练并写 Runbook', '演练记录 + Runbook', 3, true]
+      ]},
+      { week: 8, title: '受控试点与采用', goal: '观察用户自己使用，而不是由开发者代操作一个顺利 Demo。', acceptance: '3–5 位使用者能独立完成目标任务，且采用数据与业务结果都可见。', tasks: [
+        ['让 3–5 位目标用户完成真实或安全沙箱任务', '试点记录', 4, true],
+        ['记录完成率、耗时、错误、求助点与信任问题', '采用数据', 2, true],
+        ['专门访谈“不使用”或中途放弃的原因', '阻力清单', 2, false],
+        ['迭代培训、空状态、错误提示与人工接管体验', '采用改进', 3, false]
+      ]},
+      { week: 9, title: '价值验证', goal: '把模型指标放回工作流结果、成本和风险上下文。', acceptance: '至少呈现一个工作流结果指标和一个质量或风险护栏。', tasks: [
+        ['对照第 0 周基线测量时间、质量、成本或风险变化', '价值对照表', 3, true],
+        ['区分已测结果、用户自报、外推估算与未知项', '证据分级', 2, true],
+        ['写继续、修改或停止建议及其证据', '决策建议', 2, true],
+        ['与业务 owner 复盘指标口径和未达到目标的原因', '价值复盘', 2, false]
+      ]},
+      { week: 10, title: '产品化与复用', goal: '从一次性交付中抽取模式，同时诚实记录仍需定制的部分。', acceptance: '另一名工程师可按文档把稳定模式应用到第二场景；复制粘贴不算平台化。', tasks: [
+        ['把客户特定逻辑与通用能力分层', '分层设计', 2, true],
+        ['抽取 connector、eval、schema、guardrail、部署模板与 playbook', '复用工具包', 5, true],
+        ['用第二组相似数据或工作流验证复用', '第二场景验证', 3, true],
+        ['记录复用耗时、失败点和仍需定制的内容', '复用复盘', 2, false]
+      ]},
+      { week: 11, title: '交接与运营', goal: '让系统不依赖原作者在线，现场反馈有清晰去向。', acceptance: '未来 owner 能独立部署、观察、处理常见故障并完成回滚。', tasks: [
+        ['完成 README、架构、数据字典、权限矩阵与评估报告', '交付文档包', 4, true],
+        ['补齐发布、回滚说明和 Runbook', '运营手册', 2, true],
+        ['与未来 owner 做一次交接和故障处理演练', '交接演练', 3, true],
+        ['把现场问题、产品改进与模型反馈分栏建立 backlog', '反馈 Backlog', 2, false]
+      ]},
+      { week: 12, title: '作品集与面试防守', goal: '把事实、个人贡献、限制和可复用经验讲清楚。', acceptance: '每个结果都有证据；练习、模拟、试点、生产、个人与团队成果明确分开。', tasks: [
+        ['按 Context → Discovery → Decisions → Build → Evals → Rollout → Outcome → Reuse → Limits 写案例', '案例文章', 4, true],
+        ['准备 10 分钟 Demo、5 分钟技术深挖和 5 分钟业务价值说明', '演示包', 4, true],
+        ['演练失败、范围取舍、客户冲突、安全事故与未达目标等追问', '面试题库', 3, false],
+        ['给作品添加证据链接、贡献边界、限制和下一步', '证据索引', 2, true]
+      ]}
+    ];
+
+    const sources = [
+      ['OpenAI · FDE 岗位', '公司官方当前岗位', 'https://openai.com/careers/forward-deployed-engineer-%28fde%29-seattle-seattle/', '端到端负责 discovery、scoping、设计、构建与上线；以生产采用、工作流影响和 eval 反馈衡量成功。'],
+      ['OpenAI · Presence', '官方部署文档', 'https://help.openai.com/en/articles/20001405-openai-presence', '业务目标、系统与权限、安全审查、eval 验收、受控上线监控与持续改进的部署链。'],
+      ['OpenAI · Deployment Company', '公司官方公告', 'https://openai.com/index/openai-launches-the-deployment-company/', 'FDE 与业务负责人、操作人员和一线团队共同识别高影响机会并重塑工作流。'],
+      ['Palantir · FDSE / Early Talent', '官方职业说明', 'https://www.palantir.com/careers/students-and-early-talent/', 'FDSE 的使命是达成客户的技术和运营结果；强调独立问题解决与技术沟通。'],
+      ['Palantir · Use Case Lifecycle', '官方交付方法', 'https://www.palantir.com/docs/foundry/use-case-life-cycle/overview', '从用户获得的新能力、价值命题与成功量化定义用例，而不是从接系统或用算法出发。'],
+      ['Palantir · Functional Requirements', '官方需求方法', 'https://www.palantir.com/docs/foundry/use-case-life-cycle/distilling-functional-requirements', '开工前明确 Decisions、Users、Stakeholders、Requirements、Outcomes 与 KPIs。'],
+      ['OpenAI · Evals for businesses', '官方工程指南', 'https://openai.com/index/evals-drive-next-chapter-of-ai/', '用 Specify → Measure → Improve 把模糊业务目标转为情境化评估标准。'],
+      ['OpenAI · Evals API', '官方开发文档', 'https://platform.openai.com/docs/guides/evals', '建立数据集、测试准则和 graders，对模型与参数做可重复评估。'],
+      ['Anthropic · Building effective agents', '官方工程文章', 'https://www.anthropic.com/engineering/building-effective-agents', '优先最简单可行方案，仅在可量化改善时增加 agent 复杂度；强调工具接口和停止条件。'],
+      ['Anthropic · Agent evals', '官方工程文章', 'https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents', '复杂 agent 需结合任务、环境、轨迹与多层评估，单一指标不能覆盖所有故障。'],
+      ['NIST AI 600-1', '政府官方规范', 'https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf', '生成式 AI 风险识别、衡量、治理和管理的跨供应商参考框架。'],
+      ['原书 GitHub 仓库', '作者官方仓库', 'https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer', '用于核对书的目录、定义、案例索引和版本；不替代案例来源所有者的一手证据。']
+    ];
+
+    const KEY = 'fde-field-lab-v1';
+    let state = loadState();
+    const $ = (s, root = document) => root.querySelector(s);
+    const $$ = (s, root = document) => [...root.querySelectorAll(s)];
+
+    function taskId(week, index) { return `w${week}-t${index}`; }
+    function loadState() {
+      try { return JSON.parse(localStorage.getItem(KEY)) || { done: {}, notes: {}, startDate: '' }; }
+      catch { return { done: {}, notes: {}, startDate: '' }; }
+    }
+    function saveState(message) {
+      localStorage.setItem(KEY, JSON.stringify(state));
+      if (message) toast(message);
+    }
+    function esc(value = '') {
+      return String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    }
+    function render() {
+      $('#taskTotal').textContent = phases.reduce((n, p) => n + p.tasks.length, 0);
+      $('#sourceTotal').textContent = sources.length;
+      $('#startDate').value = state.startDate || '';
+      $('#phaseNav').innerHTML = phases.map(p => `<a href="#week-${p.week}"><span class="nav-week">W${p.week}</span><span>${p.title}</span><span class="nav-count" data-nav-count="${p.week}"></span></a>`).join('');
+      $('#phaseList').innerHTML = phases.map(p => `
+        <section class="phase" id="week-${p.week}" data-week="${p.week}">
+          <div class="phase-head">
+            <div class="week-badge">WEEK ${p.week}</div>
+            <div><h2>${p.title}</h2><p class="phase-goal">${p.goal}</p></div>
+            <div class="date-range" data-date="${p.week}"></div>
+          </div>
+          <div class="task-list">${p.tasks.map((t, i) => taskHTML(p.week, i, t)).join('')}</div>
+          <div class="acceptance"><strong>阶段门禁</strong> · ${p.acceptance}</div>
+        </section>`).join('');
+      $('#sourceList').innerHTML = sources.map(s => `<article class="source"><div class="source-top"><a href="${s[2]}" target="_blank" rel="noreferrer">${s[0]} ↗</a><span class="source-kind">${s[1]}</span></div><p>${s[3]}</p></article>`).join('');
+      bindTasks();
+      updateDates();
+      updateProgress();
+      applyFilters();
+    }
+    function taskHTML(week, index, task) {
+      const id = taskId(week, index), done = !!state.done[id], note = state.notes[id] || '';
+      return `<article class="task ${done ? 'done' : ''}" data-id="${id}" data-output="${task[3]}" data-search="${esc((task[0] + ' ' + task[1]).toLowerCase())}">
+        <div class="task-main">
+          <input class="check" type="checkbox" id="${id}" ${done ? 'checked' : ''} aria-label="完成：${esc(task[0])}">
+          <div><label class="task-title" for="${id}">${task[0]}</label><div class="task-meta"><span class="pill">约 ${task[2]}h</span><span class="pill ${task[3] ? 'output' : ''}">${task[3] ? '关键产出' : '工程动作'} · ${task[1]}</span></div></div>
+          <button class="note-toggle" type="button" aria-expanded="false">${note ? '查看笔记' : '加笔记'}</button>
+        </div>
+        <div class="task-notes"><label class="sr-only" for="note-${id}">任务笔记</label><textarea id="note-${id}" placeholder="记录链接、遇到的问题、验收证据…">${esc(note)}</textarea></div>
+      </article>`;
+    }
+    function bindTasks() {
+      $$('.task').forEach(card => {
+        $('.check', card).addEventListener('change', e => {
+          state.done[card.dataset.id] = e.target.checked;
+          card.classList.toggle('done', e.target.checked);
+          saveState(); updateProgress(); applyFilters();
+        });
+        $('.note-toggle', card).addEventListener('click', e => {
+          const open = card.classList.toggle('open');
+          e.currentTarget.setAttribute('aria-expanded', open);
+          e.currentTarget.textContent = open ? '收起笔记' : (state.notes[card.dataset.id] ? '查看笔记' : '加笔记');
+          if (open) $('textarea', card).focus();
+        });
+        $('textarea', card).addEventListener('input', e => {
+          state.notes[card.dataset.id] = e.target.value;
+          saveState();
+        });
+      });
+    }
+    function updateProgress() {
+      const total = phases.reduce((n, p) => n + p.tasks.length, 0);
+      const done = Object.keys(state.done).filter(k => state.done[k]).length;
+      const pct = total ? Math.round(done / total * 100) : 0;
+      $('#doneCount').textContent = done; $('#allCount').textContent = total; $('#progressPercent').textContent = `${pct}%`;
+      $('#progressBar').style.width = `${pct}%`; $('.progress-track').setAttribute('aria-valuenow', pct);
+      $('#progressRing').style.background = `conic-gradient(var(--brand) ${pct}%, #e5e1d8 0)`;
+      const next = $$('.task').find(c => !state.done[c.dataset.id]);
+      $('#nextHint').textContent = next ? `下一步：${$('.task-title', next).textContent}` : '全部完成，准备一次完整作品集复盘';
+      phases.forEach(p => {
+        const ids = p.tasks.map((_, i) => taskId(p.week, i));
+        const n = ids.filter(id => state.done[id]).length;
+        const target = $(`[data-nav-count="${p.week}"]`); if (target) target.textContent = `${n}/${ids.length}`;
+      });
+    }
+    function applyFilters() {
+      const q = $('#search').value.trim().toLowerCase();
+      const mode = $('#statusFilter').value;
+      let visible = 0;
+      $$('.task').forEach(card => {
+        const done = !!state.done[card.dataset.id];
+        const matchText = !q || card.dataset.search.includes(q);
+        const matchMode = mode === 'all' || (mode === 'done' && done) || (mode === 'open' && !done) || (mode === 'output' && card.dataset.output === 'true');
+        card.hidden = !(matchText && matchMode);
+        if (!card.hidden) visible++;
+      });
+      $$('.phase').forEach(phase => {
+        const has = $$('.task', phase).some(t => !t.hidden);
+        phase.hidden = !has;
+      });
+      $('#emptyState').style.display = visible ? 'none' : 'block';
+    }
+    function updateDates() {
+      $$('[data-date]').forEach(el => el.textContent = '设置开始日期后自动排期');
+      if (!state.startDate) return;
+      const base = new Date(`${state.startDate}T12:00:00`);
+      if (Number.isNaN(base.getTime())) return;
+      $$('[data-date]').forEach(el => {
+        const week = Number(el.dataset.date), start = new Date(base), end = new Date(base);
+        start.setDate(base.getDate() + week * 7); end.setDate(start.getDate() + 6);
+        const fmt = d => `${d.getMonth() + 1}/${d.getDate()}`;
+        el.textContent = `${fmt(start)} — ${fmt(end)}`;
+      });
+    }
+    function toast(message) {
+      const el = $('#toast'); el.textContent = message; el.classList.add('show');
+      clearTimeout(window.toastTimer); window.toastTimer = setTimeout(() => el.classList.remove('show'), 1800);
+    }
+    function exportProgress() {
+      const payload = { format: 'fde-field-lab-v1', exportedAt: new Date().toISOString(), ...state };
+      const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = `fde-learning-progress-${new Date().toISOString().slice(0,10)}.json`; a.click(); URL.revokeObjectURL(url);
+      toast('进度已导出');
+    }
+    function importProgress(file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result);
+          if (data.format !== 'fde-field-lab-v1') throw new Error('format');
+          state = { done: data.done || {}, notes: data.notes || {}, startDate: data.startDate || '' };
+          saveState('进度已导入'); render();
+        } catch { toast('导入失败：文件格式不匹配'); }
+      };
+      reader.readAsText(file);
+    }
+
+    $('#search').addEventListener('input', applyFilters);
+    $('#statusFilter').addEventListener('change', applyFilters);
+    $('#startDate').addEventListener('change', e => { state.startDate = e.target.value; saveState('排期已更新'); updateDates(); });
+    $('#exportBtn').addEventListener('click', exportProgress);
+    $('#importBtn').addEventListener('click', () => $('#importFile').click());
+    $('#importFile').addEventListener('change', e => { if (e.target.files[0]) importProgress(e.target.files[0]); e.target.value = ''; });
+    $('#resetBtn').addEventListener('click', () => {
+      if (!confirm('确定清空全部勾选、笔记和开始日期吗？此操作不可撤销。')) return;
+      state = { done: {}, notes: {}, startDate: '' }; localStorage.removeItem(KEY); render(); toast('计划已重置');
+    });
+    $$('[data-scroll]').forEach(btn => btn.addEventListener('click', () => $(`#${btn.dataset.scroll}`).scrollIntoView({ behavior: 'smooth' })));
+    render();
+  </script>
+</body>
+</html>

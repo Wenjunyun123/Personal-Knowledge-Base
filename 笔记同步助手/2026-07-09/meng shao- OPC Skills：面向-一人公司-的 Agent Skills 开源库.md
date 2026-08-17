@@ -1,0 +1,44 @@
+---
+author: meng shao
+source: X
+url: https://x.com/shao__meng/status/2074652974333480963
+saved: 2026-07-09 00:28:40
+tags:
+  - 笔记同步助手
+id: ea158f5b-cde6-4e39-b506-11bd34aa0543
+---
+🔗 [在 X 查看原文](https://x.com/shao__meng/status/2074652974333480963)
+
+OPC Skills：面向"一人公司"的 Agent Skills 开源库  
+
+# 10 个 Skills 分为 4 类，累计 51K+ 次安装  
+
+① 市场调研层  
+· requesthunt（v2.3.0，最活跃）：从 Reddit / X / GitHub / YouTube / LinkedIn / Amazon 抓取真实用户反馈，生成需求研究报告。现已切换为 Rust CLI（自带 SHA256 校验 + 设备码登录）。其"平台选择指南"很专业——按产品类别推荐主次数据源（如硬件→YouTube 优先，开发者工具→Reddit 优先）  
+
+② 数据采集层（API 封装技能）  
+· X/twitter（28 个脚本，最厚重）：封装 twitterapi. io，覆盖用户/推文/列表/社区/Spaces/趋势全端点  
+· reddit（7 脚本）：基于公共 JSON API  
+· producthunt（11 脚本）：GraphQL API  
+
+③ 设计生产层  
+· nanobanana：Gemini 3 Pro Image 图像生成（文生图、图编辑、2K/4K）  
+· logo-creator：依赖 nanobanana，含裁剪、去背景、SVG 矢量化  
+· banner-creator：依赖 nanobanana，输出多平台横幅  
+
+④ 增长与基建层  
+· seo-geo（33.5K 安装，最热门）：SEO + GEO（生成式引擎优化），内嵌普林斯顿 9 项 GEO 方法论，覆盖 ChatGPT / Perplexity / Google AI Overview / Copilot / Claude 各平台的引用优化策略  
+· domain-hunter：依赖 twitter + reddit，域名查价、找促销码、给购买建议  
+· archive：会话知识归档，带 SessionStart hook 自动把 .archive/MEMORY.md 注入上下文——唯一带运行时钩子的技能，体现"跨会话记忆复用"思路  
+
+项目地址  
+https://github.com/resciencelab/opc-skills
+
+
+![[笔记同步助手/images/784bc502a24e167ff36203a7a92c4132_MD5.jpg]]
+
+  
+
+---
+
+内容效果不满意？[点此反馈](https://feedback.notebooksyncer.com/feedback/local-ea158f5b-cde6-4e39-b506-11bd34aa0543?u=https%3a%2f%2fx.com%2fi%2fstatus%2f2074652974333480963&s=obsidian)

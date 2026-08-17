@@ -39,8 +39,8 @@
     ]
   },
   "permissionMode": "yolo",
-  "model": "Minimax-2.1",
-  "thinkingBudget": "xhigh",
+  "model": "deepseek-chat",
+  "thinkingBudget": "off",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "show1MModel": false,
@@ -52,28 +52,21 @@
     "~/Downloads"
   ],
   "persistentExternalContextPaths": [],
-  "environmentVariables": "ANTHROPIC_API_KEY=sk-api-FH4rsZHYnqY_ceEASjg6NkXbkKkvvsmbG82cZASr6hNJkWuMplr2hUGAkoFXD1U3Gz55Wo8-vVpeWsjYENqXnLlt7Nd9Qyv8G1DOvlylT-KXwh3nUqg9h0Q\nANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic\nANTHROPIC_MODEL=Minimax-2.1",
-  "envSnippets": [
-    {
-      "id": "snippet-1768965650894",
-      "name": "DeepSeek",
-      "description": "DeepSeek API 配置",
-      "envVars": "ANTHROPIC_BASE_URL=https://api.deepseek.com\n\nANTHROPIC_API_KEY=sk-8480aa02e943462092b32f5304b8a024\n\nANTHROPIC_MODEL=deepseek-chat"
-    }
-  ],
+  "environmentVariables": "# Claudian 环境变量配置\n# 从 Claude Code 同步的模型配置\n\n# 默认使用 DeepSeek (deepseek-chat)\nANTHROPIC_BASE_URL=https://api.deepseek.com\nANTHROPIC_API_KEY=sk-8480aa02e943462092b32f5304b8a024\nANTHROPIC_MODEL=deepseek-chat\n\n# 如果要切换到 Gemini,注释掉上面的三行,取消下面的注释:\n# ANTHROPIC_BASE_URL=https://generativelanguage.googleapis.com/v1beta\n# ANTHROPIC_API_KEY=AIzaSyAfI1tMlz-0j7eUFsGavLYBGgZSamJ8YmE\n# ANTHROPIC_MODEL=gemini-2.5-flash\n\n# 如果要切换到 智谱AI,注释掉上面的三行,取消下面的注释:\n# ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/paas/v4\n# ANTHROPIC_API_KEY=70a653c8547b4a379b14aeb0c73caecf.Qumx5h5SjA8alfMO\n# ANTHROPIC_MODEL=glm-4.7\n\n# 如果要切换到 Minimax,注释掉上面的三行,取消下面的注释:\n# ANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic\n# ANTHROPIC_API_KEY=sk-api-FH4rsZHYnqY_ceEASjg6NkXbkKkvvsmbG82cZASr6hNJkWuMplr2hUGAkoFXD1U3Gz55Wo8-vVpeWsjYENqXnLlt7Nd9Qyv8G1DOvlylT-KXwh3nUqg9h0Q\n# ANTHROPIC_MODEL=abab6.5-chat",
+  "envSnippets": [],
   "customContextLimits": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "zh-CN",
+  "locale": "en",
   "claudeCliPath": "",
   "claudeCliPathsByHost": {},
   "loadUserClaudeSettings": true,
   "lastClaudeModel": "haiku",
-  "lastCustomModel": "deepseek-chat",
-  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.minimax.chat/anthropic|ANTHROPIC_MODEL=Minimax-2.1",
+  "lastCustomModel": "",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com|ANTHROPIC_MODEL=deepseek-chat",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true

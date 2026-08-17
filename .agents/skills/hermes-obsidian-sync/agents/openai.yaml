@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hermes Obsidian Sync"
+  short_description: "Sync Hermes links into Obsidian vault."
+  default_prompt: "Use $hermes-obsidian-sync to save this Hermes or WeChat article link into my Obsidian vault."
+
+policy:
+  allow_implicit_invocation: true
