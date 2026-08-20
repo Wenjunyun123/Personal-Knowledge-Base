@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "9ca7b5fa778b29f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ef9fe80a2ad9c36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5efcd443409ee82a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-P0-Core-Foundations/02-TypeScript-Practice-Driven/Lesson.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lesson"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8ccd69c7453c4ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "d83bd82ef1c8b8f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d527d3fbd6426e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c5490411be222809",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2ca52f35c0ba84e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1d633ffe5c748ee9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f14f0cfba9f4ed3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f78bf26c9f9250fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Lesson.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "22ba473b734cebde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Lesson.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "ef854c859e36616d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ab04185e391dfce4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "ae10c1e6e388704f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Lesson.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false,
+      "vscode-editor:新建代码文件": false,
+      "obsidian-opencode:OpenCode": false,
+      "claudian:Open Claudian": false,
+      "bijitongbu:tongbuzhushou": false
+    }
+  },
+  "active": "5efcd443409ee82a",
+  "lastOpenFiles": [
+    "04-P1-Professional-Engineering/01-Engineering-Monorepo-and-CICD/Lesson.md",
+    "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Modern-JavaScript-Tutorial-Chinese/01-JavaScript-Language/01-getting-started/1-intro/article.md",
+    "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Modern-JavaScript-Tutorial-Chinese/01-JavaScript-Language/02-first-steps/01-hello-world/1-hello-alert/task.md",
+    "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Modern-JavaScript-Tutorial-Chinese/01-JavaScript-Language/02-first-steps/01-hello-world/1-hello-alert/solution.md",
+    "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Modern-JavaScript-Tutorial-Chinese/01-JavaScript-Language/01-getting-started/1-intro/limitations.svg",
+    "03-P0-Core-Foundations/01-JavaScript-Deep-Foundations/Lesson.md",
+    "Start-Here.md",
+    "02-Curated-High-Value-Resources/Overview.md",
+    "未命名 1.base",
+    "未命名.base"
+  ]
+}
