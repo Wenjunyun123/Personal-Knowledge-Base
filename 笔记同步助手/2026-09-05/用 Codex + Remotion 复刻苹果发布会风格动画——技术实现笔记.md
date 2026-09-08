@@ -12,7 +12,7 @@ id: 4b1dc0e1-e48c-4c91-8e67-d696bc760fbb
 
 在 Timeline 上看到 @Brunohenrique 制作的动画后，尝试用 Remotion 复刻其效果，本文记录实现过程。
 
-![Remotion + Three.js 复刻的苹果产品发布会风格动画效果](https://relay-1.bijitongbu.site/p/187778af165c0acfa00af352a84958a3.jpg)
+![[笔记同步助手/images/187778af165c0acfa00af352a84958a3_MD5.jpg|Remotion + Three.js 复刻的苹果产品发布会风格动画效果]]
 
 Remotion + Three.js 复刻的苹果产品发布会风格动画效果
 
