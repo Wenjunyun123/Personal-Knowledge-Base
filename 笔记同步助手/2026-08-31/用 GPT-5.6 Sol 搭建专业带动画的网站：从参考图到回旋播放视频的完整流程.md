@@ -18,7 +18,7 @@ id: 75eab111-2445-4152-bef6-76f5796a1e12
 
 This video teaches you how to use OpenAI's newly released GPT-5.6 Sol to build professional, animated websites like the examples shown, without having to pay a fortune for outsourcing.
 
-![视频开头介绍 GPT-5.6 Sol 的能力](https://relay-1.bijitongbu.site/p/89ba2f8d2c4ea0ae5544a9acb10f28d9.jpg)
+![[笔记同步助手/images/678f9efdd5813ca479bbb199f46446d7_MD5.jpg|视频开头介绍 GPT-5.6 Sol 的能力]]
 
 视频开头介绍 GPT-5.6 Sol 的能力
 
@@ -30,7 +30,7 @@ Most AI-generated websites look like "AI rejects\*. The techniques shown in this
 
 The creator has already built over 100 websites with AI, across e-commerce and many other industries, and can independently complete commercial, portfolio, and client projects. He showcases all of his AI design work on motionsize.ai.
 
-![作者的作品集网站 motionsize.ai 首页](https://relay-1.bijitongbu.site/p/4fd1c680892fe8202d00da9b6d9666b3.jpg)
+![[笔记同步助手/images/8af923718fecaf80c15d0f4bfe237ae2_MD5.jpg|作者的作品集网站 motionsize.ai 首页]]
 
 作者的作品集网站 motionsize.ai 首页
 
@@ -46,7 +46,7 @@ The first — and most important — step is finding references. AI cannot yet g
 -   **land-book**:落地页合集
 -   **seesaw.website**:动效网站合集
 
-![Pinterest / land-book / seesaw.website 三个灵感来源](https://relay-1.bijitongbu.site/p/4f13f7e6f974858fe8c6bd3e5cd59fe4.jpg)
+![[笔记同步助手/images/ee6f5e9a74b66f8ff6abdae28b8c9615_MD5.jpg|Pinterest / land-book / seesaw.website 三个灵感来源]]
 
 Pinterest / land-book / seesaw.website 三个灵感来源
 
@@ -54,7 +54,7 @@ Pinterest / land-book / seesaw.website 三个灵感来源
 
 For this case study, the goal is to build a website for his own design agency. He starts by picking a hero section as the base reference.
 
-![选定的 hero section 参考图](https://relay-1.bijitongbu.site/p/7439c7104b1047163207902f59e8465f.jpg)
+![[笔记同步助手/images/4d027997edda3952f2338182c3575d9c_MD5.jpg|选定的 hero section 参考图]]
 
 选定的 hero section 参考图
 
@@ -62,7 +62,7 @@ For this case study, the goal is to build a website for his own design agency. H
 
 Spend a few minutes browsing on Pinterest/Twitter, screenshotting style elements you like. In this case, he also captured an abstract circle element and a green color palette.
 
-![额外截取的圆圈元素和配色方案](https://relay-1.bijitongbu.site/p/5e5343da3c96f6efcd88ef4afa41834c.jpg)
+![[笔记同步助手/images/a6f6a446506c719839215c4b03812608_MD5.jpg|额外截取的圆圈元素和配色方案]]
 
 额外截取的圆圈元素和配色方案
 
@@ -72,7 +72,7 @@ Spend a few minutes browsing on Pinterest/Twitter, screenshotting style elements
 
 Open ChatGPT's image generation feature (or use HiggsFields) and upload your references.
 
-![ChatGPT 图像生成界面](https://relay-1.bijitongbu.site/p/8f284f3fba5b5a26b9d7f22ed8611cec.jpg)
+![[笔记同步助手/images/5b6beed470cfc7ff10dc73f8ef4b06cd_MD5.jpg|ChatGPT 图像生成界面]]
 
 ChatGPT 图像生成界面
 
@@ -82,7 +82,7 @@ ChatGPT 图像生成界面
 -   想替换花朵的圆圈元素图
 -   决定配色的图
 
-![上传三张参考图](https://relay-1.bijitongbu.site/p/786dda82b3a0860f867f18e753bd02d7.jpg)
+![[笔记同步助手/images/fdd4eeb3d435f6c919970993271b5c25_MD5.jpg|上传三张参考图]]
 
 上传三张参考图
 
@@ -98,7 +98,7 @@ Explicitly avoid the AI-default purple tech look and intentionally pick differen
 -   其余保持原样
 -   把 Logo 改为自己机构名 **motionsites.ai**
 
-![在 ChatGPT 中输入的改造提示词](https://relay-1.bijitongbu.site/p/21b19519f572be0f98fd9ab44c4bdd68.jpg)
+![[笔记同步助手/images/72c3408f05902c5f765afd25fb83ef90_MD5.jpg|在 ChatGPT 中输入的改造提示词]]
 
 在 ChatGPT 中输入的改造提示词
 
@@ -106,11 +106,11 @@ Explicitly avoid the AI-default purple tech look and intentionally pick differen
 
 Generate several versions and compare them, picking the best one (e.g., the green version).
 
-![多个 AI 生成版本对比](https://relay-1.bijitongbu.site/p/7108c1d6ee5b9d9d09234b9db156876e.jpg)
+![[笔记同步助手/images/5190d23cf166dd4370993bf8a70b7043_MD5.jpg|多个 AI 生成版本对比]]
 
 多个 AI 生成版本对比
 
-![最终选定的绿色版本设计稿](https://relay-1.bijitongbu.site/p/7108c1d6ee5b9d9d09234b9db156876e.jpg)
+![[笔记同步助手/images/5190d23cf166dd4370993bf8a70b7043_MD5.jpg|最终选定的绿色版本设计稿]]
 
 最终选定的绿色版本设计稿
 
@@ -126,7 +126,7 @@ Generate several versions and compare them, picking the best one (e.g., the gree
 
 After getting a satisfying static design, move to animation. First, ask AI to generate a clean background image based on the chosen version: 8K resolution, with text/buttons/Logo removed, preserving the original position and composition. This image is used as the starting frame of the video so AI doesn't invent its own structure.
 
-![生成的纯背景图](https://relay-1.bijitongbu.site/p/cb5dd35da61a40027aa28054945c5c1d.jpg)
+![[笔记同步助手/images/957d413ed1ec0d2285ca849769d50c64_MD5.jpg|生成的纯背景图]]
 
 生成的纯背景图
 
@@ -139,7 +139,7 @@ After getting a satisfying static design, move to animation. First, ask AI to ge
 
 This time he picks Sora 2.0 (he misspoke as "sedance 2.0"); compared with the earlier Kling AI, it produces more refined animations.
 
-![Sora 2.0 生成界面,选择 16:9、10 秒、1080p](https://relay-1.bijitongbu.site/p/97db38824ba6d4d73d99a4b8191a480e.jpg)
+![[笔记同步助手/images/d1cf57f6337a38e3e27a0b3b05ae0461_MD5.jpg|Sora 2.0 生成界面,选择 16:9、10 秒、1080p]]
 
 Sora 2.0 生成界面,选择 16:9、10 秒、1080p
 
@@ -151,7 +151,7 @@ Settings: pick 16:9, 10 seconds, 1080p, then click Animate.
 
 Path 1: simply prompt "animate this image".
 
-![路径一:仅提示词生成的动画](https://relay-1.bijitongbu.site/p/b6490811f9c86fc2ca16fd014bfe715e.jpg)
+![[笔记同步助手/images/49660cc605c36ba80e2bf4fabd30eda3_MD5.jpg|路径一:仅提示词生成的动画]]
 
 路径一:仅提示词生成的动画
 
@@ -161,7 +161,7 @@ Path 1: simply prompt "animate this image".
 
 Path 2: upload a reference video to demonstrate motion rhythm; AI replicates the smoothness, not the content.
 
-![路径二:上传参考视频并指定运动节奏](https://relay-1.bijitongbu.site/p/de69ca92b18b0bb9f6ba7ddb94361041.jpg)
+![[笔记同步助手/images/ddeba6129ae01ad0c816dfa8bf2ad043_MD5.jpg|路径二:上传参考视频并指定运动节奏]]
 
 路径二:上传参考视频并指定运动节奏
 
@@ -174,7 +174,7 @@ Tip: the reference video doesn't need to be high quality or related to the final
 -   无参考版("just animate this image"):画面一般但可用
 -   带参考视频版:质量仍不可控,作者决定不在 hero 区使用,留给后续页面
 
-![带参考视频版本的生成结果](https://relay-1.bijitongbu.site/p/c2ace7700d67d84f21122191a4d1ed16.jpg)
+![[笔记同步助手/images/ddf3ef0e56eb8b71458046627f9403fb_MD5.jpg|带参考视频版本的生成结果]]
 
 带参考视频版本的生成结果
 
@@ -184,7 +184,7 @@ Tip: the reference video doesn't need to be high quality or related to the final
 
 With the animation phase wrapped up, move to actually building the site. Use Codex, the coding agent inside ChatGPT.
 
-![Codex 任务入口](https://relay-1.bijitongbu.site/p/1e664e0c6f2756061811c235298fe90f.jpg)
+![[笔记同步助手/images/9a79888448a108f270453b0cbdae8156_MD5.jpg|Codex 任务入口]]
 
 Codex 任务入口
 
@@ -194,7 +194,7 @@ Codex 任务入口
 -   将项目命名为 "web design agency"(可替换为自己网站名)
 -   选择模型推理档位:Ultra、Medium 等,演示用 Medium(多数人会用的档位)
 
-![Codex 中新建项目并选择 Medium 档位](https://relay-1.bijitongbu.site/p/11af89ef2dff47b22c1a5be087b54012.jpg)
+![[笔记同步助手/images/825deae83df6cac89c2b93ef31f3b3b6_MD5.jpg|Codex 中新建项目并选择 Medium 档位]]
 
 Codex 中新建项目并选择 Medium 档位
 
@@ -202,7 +202,7 @@ Codex 中新建项目并选择 Medium 档位
 
 Prepare the first hero design reference for AI to replicate.
 
-![准备好的 hero 设计稿参考图](https://relay-1.bijitongbu.site/p/e5f7a9d543966ec8b5007f382a664571.jpg)
+![[笔记同步助手/images/24042fed3755529dd19bec349aa45ec9_MD5.jpg|准备好的 hero 设计稿参考图]]
 
 准备好的 hero 设计稿参考图
 
@@ -210,7 +210,7 @@ Prepare the first hero design reference for AI to replicate.
 
 Import the image into Figma and temporarily hide the decorative circles so AI doesn't waste "brainpower" on irrelevant details. Rule: keep references fed to AI as clean as possible.
 
-![在 Figma 中临时隐藏装饰圆圈](https://relay-1.bijitongbu.site/p/184c1b1a4064f33e5c373dc7d1725aec.jpg)
+![[笔记同步助手/images/3359d364b3c8013f66f55c419ba17af4_MD5.jpg|在 Figma 中临时隐藏装饰圆圈]]
 
 在 Figma 中临时隐藏装饰圆圈
 
@@ -222,7 +222,7 @@ AI 在字体还原上较弱,常用训练内的字体导致成品显"AI 味",需�
 
 AI is weak at font reproduction; it tends to use fonts from its training data, which gives an "AI taste" — you need to specify fonts manually.
 
-![字体选择界面](https://relay-1.bijitongbu.site/p/f601b6b50bf9f17aef785aaf3da335ba.jpg)
+![[笔记同步助手/images/0d6b9433657ba1071f60c215f3ea13da_MD5.jpg|字体选择界面]]
 
 字体选择界面
 
@@ -240,7 +240,7 @@ The resource uses React; fonts are loaded through Google Fonts (e.g., Gaze) and 
 
 Give Codex this specific instruction.
 
-![向 Codex 输入的 hero 区构建提示词](https://relay-1.bijitongbu.site/p/6f1bd5cfa355b1feb3d64285f8729657.jpg)
+![[笔记同步助手/images/a8ac650d4a4100bf590760c972420aca_MD5.jpg|向 Codex 输入的 hero 区构建提示词]]
 
 向 Codex 输入的 hero 区构建提示词
 
@@ -256,7 +256,7 @@ Codex 返回结果,提示"已创建"。在浏览器中预览:得到一个响应�
 
 Codex returns with "created". Preview in the browser: a responsive (mobile-friendly) hero with buttons and all components, generated entirely by GPT.
 
-![Codex 生成的响应式 hero 区预览](https://relay-1.bijitongbu.site/p/29e6e3fb05fd5dbff4d00d9b8bcf79e0.jpg)
+![[笔记同步助手/images/d6975e7eb814178171b940dafa1e794e_MD5.jpg|Codex 生成的响应式 hero 区预览]]
 
 Codex 生成的响应式 hero 区预览
 
@@ -266,7 +266,7 @@ Codex 生成的响应式 hero 区预览
 
 Add the AI-generated video as the hero background — download the first video and upload it directly.
 
-![下载并准备上传 hero 区背景视频](https://relay-1.bijitongbu.site/p/4275b72b6c4082919843d0308c2c599f.jpg)
+![[笔记同步助手/images/90db4a13a67af3d2758426a6f6061173_MD5.jpg|下载并准备上传 hero 区背景视频]]
 
 下载并准备上传 hero 区背景视频
 
@@ -291,7 +291,7 @@ Have AI build the rest of the landing page — review overall creativity and qua
 -   **Portfolio Cards**(作品集卡片)
 -   让 AI 自行补充其他合适区块
 
-![向 Codex 输入落地页区块构建提示词](https://relay-1.bijitongbu.site/p/35891985057dd7ea11f5b8dc93c4a837.jpg)
+![[笔记同步助手/images/11910c297ff29a77d272980b911e924e_MD5.jpg|向 Codex 输入落地页区块构建提示词]]
 
 向 Codex 输入落地页区块构建提示词
 
@@ -299,7 +299,7 @@ Have AI build the rest of the landing page — review overall creativity and qua
 
 Refresh and preview the full site. The layout is distinctive; cards and interactions approach what a professional designer delivers after several hours.
 
-![整站预览效果](https://relay-1.bijitongbu.site/p/1fc8ca8532c50c90c7179c099e5d388b.jpg)
+![[笔记同步助手/images/956279a2af315baa9a4032750b424e7b_MD5.jpg|整站预览效果]]
 
 整站预览效果
 
@@ -313,7 +313,7 @@ Refresh and preview the full site. The layout is distinctive; cards and interact
 
 Current sections: a second Feature block with cards and animation; Portfolio only needs real card content swapped in; Process section with step animation — overall "cool enough". Using Medium model tier; Ultra would be higher quality.
 
-![Process 区与 Portfolio 区预览](https://relay-1.bijitongbu.site/p/727d9a248bbec5cf1aaf767c129aca96.jpg)
+![[笔记同步助手/images/4f3531ff1d50f80b61863ac7418e1b84_MD5.jpg|Process 区与 Portfolio 区预览]]
 
 Process 区与 Portfolio 区预览
 
@@ -323,7 +323,7 @@ Process 区与 Portfolio 区预览
 
 Download another video from earlier and place it as the background of the 2nd card in the Capabilities block ("Strategy. Clarity. Before pixels."), enlarging it to avoid cropping.
 
-![将视频放入 Capabilities 区卡片](https://relay-1.bijitongbu.site/p/dba1b65163572ddea375705a2c8738f2.jpg)
+![[笔记同步助手/images/80a4556448e39c30be4f80ee55faf4e9_MD5.jpg|将视频放入 Capabilities 区卡片]]
 
 将视频放入 Capabilities 区卡片
 
@@ -335,7 +335,7 @@ Note: the video's black background clashes with the card's dark background.
 
 Solution: use Blending Mode — test each one in the editor; Exclusion works best, eliminating the black background so the card and video merge visually.
 
-![使用 Exclusion 混合模式后的卡片效果](https://relay-1.bijitongbu.site/p/164ec30124f09244cc142c610bc60d69.jpg)
+![[笔记同步助手/images/b0f46d8cab35a42425c5a0278b7ece32_MD5.jpg|使用 Exclusion 混合模式后的卡片效果]]
 
 使用 Exclusion 混合模式后的卡片效果
 
@@ -375,7 +375,7 @@ Try another prompt: explicitly require "boomerang playback logic" and stress the
 
 Recommend screenshotting the boomerang logic for reuse in future projects.
 
-![截图保存的 boomerang 播放逻辑](https://relay-1.bijitongbu.site/p/06352326880a08a5b6ef42ef88e01525.jpg)
+![[笔记同步助手/images/054418b1dd00de350959e05219d55468_MD5.jpg|截图保存的 boomerang 播放逻辑]]
 
 截图保存的 boomerang 播放逻辑
 
@@ -383,7 +383,7 @@ Recommend screenshotting the boomerang logic for reuse in future projects.
 
 Wait for the tool to update the code and test the boomerang. Result: perfectly smooth reverse playback, no stutter, no visible cut.
 
-![Capabilities 卡片视频顺畅倒放的效果](https://relay-1.bijitongbu.site/p/45bc04a3f375ea62eb155cc0091275c8.jpg)
+![[笔记同步助手/images/9ae4652f88de750255f6e185a98f03ea_MD5.jpg|Capabilities 卡片视频顺畅倒放的效果]]
 
 Capabilities 卡片视频顺畅倒放的效果
 
@@ -397,7 +397,7 @@ Apply the same boomerang logic to the hero video and start building other pages.
 
 Send: apply boomerang to the hero video. Preview: the video reverses seamlessly as soon as it ends.
 
-![Hero 区视频回旋播放效果](https://relay-1.bijitongbu.site/p/63a97cacf033c6691085cfd3ed743e1a.jpg)
+![[笔记同步助手/images/66b6b8c89cba9446ad92061e6ae62df2_MD5.jpg|Hero 区视频回旋播放效果]]
 
 Hero 区视频回旋播放效果
 
@@ -417,7 +417,7 @@ Reset the usage counter and switch on Ultra mode for the best result. The tool r
 
 Zoom in to inspect: the one-shot result is already quite good with a distinctive style.
 
-![About Us 页一次性生成的视觉效果](https://relay-1.bijitongbu.site/p/7877f98e5919f6988c0590196e28cdd7.jpg)
+![[笔记同步助手/images/8c5088cc43f1bd4755de6de2c5805bba_MD5.jpg|About Us 页一次性生成的视觉效果]]
 
 About Us 页一次性生成的视觉效果
 
@@ -431,7 +431,7 @@ Tip: swap in real content, add video assets to each page, and lightly polish —
 
 With these refinements, the site performs well on both desktop and mobile.
 
-![桌面端最终页面效果](https://relay-1.bijitongbu.site/p/7877f98e5919f6988c0590196e28cdd7.jpg)
+![[笔记同步助手/images/8c5088cc43f1bd4755de6de2c5805bba_MD5.jpg|桌面端最终页面效果]]
 
 桌面端最终页面效果
 
@@ -439,7 +439,7 @@ With these refinements, the site performs well on both desktop and mobile.
 
 Preview mobile: every page is well optimized for responsive — outperforms traditional site builders.
 
-![移动端响应式预览](https://relay-1.bijitongbu.site/p/0e069018bcd893eaf82e2e1bab751b86.jpg)
+![[笔记同步助手/images/9b1455aac20442a841acc638303f0445_MD5.jpg|移动端响应式预览]]
 
 移动端响应式预览
 
@@ -447,7 +447,7 @@ Preview mobile: every page is well optimized for responsive — outperforms trad
 
 Preview the newly created About Us page — equally well-optimized.
 
-![About Us 页面预览](https://relay-1.bijitongbu.site/p/832679b4ee9d8c7d462ee515a969f30d.jpg)
+![[笔记同步助手/images/d6e8cdd575a0a2d862df14fed49cf1dc_MD5.jpg|About Us 页面预览]]
 
 About Us 页面预览
 

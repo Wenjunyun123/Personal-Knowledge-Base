@@ -14,7 +14,7 @@ id: 13f702f3-54a7-45bb-93b9-f9fdbfc9ab8e
 
 在手机里搜猫能直接跳出猫的照片，听歌可以搜原唱，拍照可以搜题解——这些功能的背后几乎是同一个东西：**向量（Vector）**。当下做 AI 应用，几乎绕不开它：从 RAG 知识库、AI Agent 的长期记忆、多模态搜索到推荐系统，都跑在同一套底层之上。
 
-![开场介绍：手机 AI 搜索与向量的关系](https://relay-1.bijitongbu.site/p/cf3a6719c0173ece68435fb91198d3f8.jpg)
+![[笔记同步助手/images/1cd8deac0096c8db3bcb3729c1492893_MD5.jpg|开场介绍：手机 AI 搜索与向量的关系]]
 
 开场介绍：手机 AI 搜索与向量的关系
 
@@ -32,7 +32,7 @@ id: 13f702f3-54a7-45bb-93b9-f9fdbfc9ab8e
 -   云盘 = **书架**，要翻到具体那本书。
 -   向量 = **图书馆的检索卡片柜**。柜子里没有书，但你说想找「讲孤独的小说」，它会直接把对应的书架号递给你。
 
-![向量的图书馆检索卡片柜比喻](https://relay-1.bijitongbu.site/p/e581cb7f75cd14da8e11d6db93e4db62.jpg)
+![[笔记同步助手/images/0efeecb7424e87db3b62932fa7ebdb2b_MD5.jpg|向量的图书馆检索卡片柜比喻]]
 
 向量的图书馆检索卡片柜比喻
 
@@ -48,7 +48,7 @@ id: 13f702f3-54a7-45bb-93b9-f9fdbfc9ab8e
 
 结果就是：很多团队做 Demo 时想法很美好，数据一上规模，账单就会从几百块直接跳到几十万甚至上百万。这一步劝退了非常多人。
 
-![传统向量数据库 24 小时烧钱的解释](https://relay-1.bijitongbu.site/p/517226f41a0c0235b694aeb4f1b19688.jpg)
+![[笔记同步助手/images/46675aa2720180dcad648b5947ffb0e4_MD5.jpg|传统向量数据库 24 小时烧钱的解释]]
 
 传统向量数据库 24 小时烧钱的解释
 
@@ -64,7 +64,7 @@ id: 13f702f3-54a7-45bb-93b9-f9fdbfc9ab8e
 -   查多少付多少。
 -   **不查的时候，一分钱的计算资源都不烧**。
 
-![OSS Vectors 产品的核心思路](https://relay-1.bijitongbu.site/p/4969768772adb442e917c4f5172c9b37.jpg)
+![[笔记同步助手/images/7aa5f276bf485561ba700b3bdcc63d9d_MD5.jpg|OSS Vectors 产品的核心思路]]
 
 OSS Vectors 产品的核心思路
 
@@ -78,7 +78,7 @@ OSS Vectors 产品的核心思路
 
 开通方式也很简单：开了阿里云 OSS 之后，在控制台点几下就能开向量 Bucket 索引。
 
-![OSS 向量 Bucket 的官方价格说明](https://relay-1.bijitongbu.site/p/cda6b31043a136490c81efcbd5d5ba0a.jpg)
+![[笔记同步助手/images/287a1693bd0209b7e8c9363cd9a3ffe8_MD5.jpg|OSS 向量 Bucket 的官方价格说明]]
 
 OSS 向量 Bucket 的官方价格说明
 
@@ -88,7 +88,7 @@ OSS 向量 Bucket 的官方价格说明
 
 库里存了**千万张**唱片素材。用户用手机**拍一下封面**，App 就能从千万张里精准翻出对应唱片。
 
-![案例一：唱片 App 翻找封面](https://relay-1.bijitongbu.site/p/0f19b29945e77700b1ca067d26490919.jpg)
+![[笔记同步助手/images/930be4959881da2413fd7f8c999384ad_MD5.jpg|案例一：唱片 App 翻找封面]]
 
 案例一：唱片 App 翻找封面
 
@@ -102,7 +102,7 @@ OSS 向量 Bucket 的官方价格说明
 
 这三个案例的共同信号是：以前只有大厂养得起的系统，现在 **3 人团队、区域连锁超市都已经用上了**。
 
-![案例三：江苏连锁超市的推荐系统](https://relay-1.bijitongbu.site/p/1cfb355af36f29ab3feb68147b84ad4c.jpg)
+![[笔记同步助手/images/eba7f299139c4934b28c7ece1285eac1_MD5.jpg|案例三：江苏连锁超市的推荐系统]]
 
 案例三：江苏连锁超市的推荐系统
 
@@ -128,7 +128,7 @@ OSS 向量 Bucket 的官方价格说明
 -   对成本敏感。
 -   能接受**亚秒级**响应。
 
-![选型判断标准总结](https://relay-1.bijitongbu.site/p/b26cdbd09497df498533d06bd72ccaac.jpg)
+![[笔记同步助手/images/f107a4e0049654b59dfe6e71322a6963_MD5.jpg|选型判断标准总结]]
 
 选型判断标准总结
 
