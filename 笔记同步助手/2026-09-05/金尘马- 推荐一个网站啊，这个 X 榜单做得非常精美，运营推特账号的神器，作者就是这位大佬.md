@@ -16,7 +16,7 @@ id: 0bfa36db-3274-4e74-b3a6-79db9e850a49
   
 还有海外信息、海外热门信息趋势榜等等。 [t.co/mR5TgN8bDc](https://t.co/mR5TgN8bDc)
 
-![](https://pbs.twimg.com/media/HRYBKapa8AAG4oB.jpg)
+![[笔记同步助手/images/78828cb82bdf42f9b45caa8a17de5e3f_MD5.jpg]]
 
 ---
 

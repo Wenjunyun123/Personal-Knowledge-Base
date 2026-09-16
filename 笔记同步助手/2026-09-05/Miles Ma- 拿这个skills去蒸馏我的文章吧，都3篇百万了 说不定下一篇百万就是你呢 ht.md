@@ -14,7 +14,7 @@ id: f88d80fe-45dd-4d38-99d7-7761902386eb
   
 说不定下一篇百万就是你呢 [t.co/CipL6hCaqG](https://t.co/CipL6hCaqG)
 
-![](https://pbs.twimg.com/media/HRSpQRLboAEXMpA.jpg)
+![[笔记同步助手/images/b106912a81b190adc16aea9f1e16d24e_MD5.jpg]]
 
 ---
 

@@ -40,7 +40,7 @@ id: a69c3fe5-d9b2-4293-84ad-8343a7532a63
   
 [github.com/nickmilo/soft-paper](https://github.com/nickmilo/soft-paper)
 
-![](https://pbs.twimg.com/media/HRVY_ZlakAA5Kb8.jpg)
+![[笔记同步助手/images/33a632269537a328392cb0d0d6347490_MD5.jpg]]
 
 ---
 
@@ -64,7 +64,7 @@ id: a69c3fe5-d9b2-4293-84ad-8343a7532a63
 >   
 > 常常感叹，真是一个动荡的大时代啊。
 > 
-> ![](https://pbs.twimg.com/media/HRVgMlsaEAAdsbr.png)
+> ![[笔记同步助手/images/45eceb194d9514082fb1920b9132b279_MD5.png]]
 
 ---
 

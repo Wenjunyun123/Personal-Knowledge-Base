@@ -30,9 +30,9 @@ novel-storyboard：输出分镜（段 → 分镜 → 分镜图），MiniMax H3 �
   
 每个 skill 自包含、可单独运行，零 npm 依赖。所有报告支持中英双语界面，可合成单页导航切换。
 
-![](https://pbs.twimg.com/media/HRSl8-XaMAAp08e.jpg)
+![[笔记同步助手/images/40432642e8dd28986d3f70b3b1c93ce6_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HRSl9KNakAA5O_P.jpg)
+![[笔记同步助手/images/f13292e8643d619b5e4c46be4d88b72a_MD5.jpg]]
 
 ---
 

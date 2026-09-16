@@ -26,7 +26,7 @@ Agent 真正需要的东西少得多：运行 JS、读 DOM、发网络请求、�
   
 顺便一提，Cloudflare 做 Agent 浏览器 Kitesurf 时，第一个原型就是从 Obscura 移植过去的。
 
-![](https://pbs.twimg.com/media/HROIs2zbQAA3cSG.jpg)
+![[笔记同步助手/images/a901a6a08f382f932cf029d3c35383ba_MD5.jpg]]
 
 ---
 

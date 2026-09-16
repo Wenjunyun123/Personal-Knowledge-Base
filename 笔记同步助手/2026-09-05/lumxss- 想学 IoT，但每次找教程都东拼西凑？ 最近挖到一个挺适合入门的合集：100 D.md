@@ -24,7 +24,7 @@ id: 6e5f33b7-cad1-41ce-872a-c962589fa346
 从点亮 LED 到智能家居、云端监控，一路练下来，拿来当 IoT 入门项目库挺合适。  
 [github.com/kritishmohapatra/100\_Days\_…](https://github.com/kritishmohapatra/100_Days_100_IoT_Projects)
 
-![](https://pbs.twimg.com/media/HRVM_qrbIAAZh0I.png)
+![[笔记同步助手/images/151d36d3cf196586f34960e34cea4f6c_MD5.png]]
 
 ---
 
@@ -54,7 +54,7 @@ id: 6e5f33b7-cad1-41ce-872a-c962589fa346
 >   
 > 看来想玩好 AI，语言底子还是得够厚，羡慕文科生的一天😭 [t.co/2nxtTMbPIr](https://t.co/2nxtTMbPIr)
 > 
-> ![](https://pbs.twimg.com/media/HRSk4MFawAA4ykG.png)
+> ![[笔记同步助手/images/f9ab101cb772f539b2d1259215bc7672_MD5.png]]
 
 ---
 

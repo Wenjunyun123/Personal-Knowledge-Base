@@ -45,7 +45,7 @@ Skill 只安装一次，统一存在：
 GitHub｜qufei1993/skills-hub  
 [github.com/qufei1993/skills-hub](https://github.com/qufei1993/skills-hub?utm_source=chatgpt.com)
 
-![](https://pbs.twimg.com/media/HQ8CC1tagAAGYAJ.jpg)
+![[笔记同步助手/images/a9ac4ab2c86849e1639c50a8421f866f_MD5.jpg]]
 
 ---
 

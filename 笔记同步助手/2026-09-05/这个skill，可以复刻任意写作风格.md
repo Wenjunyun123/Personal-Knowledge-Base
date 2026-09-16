@@ -8,13 +8,13 @@ tags:
 id: f9c485f6-c60b-4673-97ac-550fca991110
 ---
 
-![cover](https://pbs.twimg.com/media/HRSgE3_bQAAlb0_.jpg)
+![[笔记同步助手/images/735fd4533524521198d52f2efb44d14d_MD5.jpg|cover]]
 
 作为一个前文字记者，写作对我来说是一种本能。所以，在我熟练使用Agent之后，我做了一系列写作相关的skill。今天介绍这个系列的第一个skill，写作蒸馏器.skill。
 
 这个skill目前是小红书 REDSkill 排行榜使用人数第三，到现在已经超过 6759 人用过了。这也真的超出我的意料之外了，毕竟上榜的有很多大佬（顺便说一下，歸藏 PPT skill 真的特别好用！）
 
-![](https://pbs.twimg.com/media/HRSh37zaAAAyHad.jpg)
+![[笔记同步助手/images/fe1f9110bb0daabf63dcfa63e39234f5_MD5.jpg]]
 
 这个skill我用了半年，不夸张地说，它完全改变了我的写作模式。写作是一件极为耗费心力的事，哪怕是从业几十年的老记者同事，写长稿件也是痛苦的。尤其是把所有资料整理好，需要从第一个字开始写时，最考验人。很多时候，我会把其他部分写完，再写导语。
 
@@ -30,7 +30,7 @@ GitHub 地址：https://github.com/larashero3-dotcom/writing-dna-skill
 
 具体分为这几层：
 
-![](https://pbs.twimg.com/media/HRSkx-DacAA0NLu.jpg)
+![[笔记同步助手/images/d89e627a2a1847727950835c2ebd62d8_MD5.jpg]]
 
 这里面，L1 是最小单位，语言层面本身的统计，比如作者爱用哪些词、句子多长、爱不爱用感叹号等等。
 
@@ -48,7 +48,7 @@ L6 是最后的配图和排版。因为我自己觉得配图和排版是很麻�
 
 这里面，L3 到 L5 的思维层面，是最难的部分。一些蒸馏风格的 skill 做出来不够像，也是因为这部分没学到作者的精髓，复刻出来的就是个会甩口头禅的空壳。我还是觉得，一个人的思想是最重要的。当然，这部分因为更难被量化，所以也更难被 AI 总结和学会。
 
-![](https://pbs.twimg.com/media/HRShZfQboAAMElg.jpg)
+![[笔记同步助手/images/e33707cdaf920ff33e4c17c6c230cd54_MD5.jpg]]
 
 # 二、怎么用
 
@@ -86,7 +86,7 @@ L6 是最后的配图和排版。因为我自己觉得配图和排版是很麻�
 
 等 agent 蒸馏完，你会获得 5 份 DNA 文档加一个 \_meta 文件夹。5 份 DNA 文档里最重要的是 Writing-DNA.md，它是对整个写作风格的总结。如果你的素材里没有配图，也没有格式，那么就不会有视觉风格指南这个文件。
 
-![](https://pbs.twimg.com/media/HRSj8hUa4AAU4T1.png)
+![[笔记同步助手/images/042f5edbb573c47e865147252bf58f18_MD5.png]]
 
 而这些，就是可被复用写作风格规则档案。
 

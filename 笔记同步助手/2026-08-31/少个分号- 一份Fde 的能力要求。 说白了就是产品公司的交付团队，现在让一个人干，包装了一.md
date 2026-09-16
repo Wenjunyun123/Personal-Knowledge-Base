@@ -18,7 +18,7 @@ id: 6ea7b31d-9228-4f1b-9f3b-a31016673cc3
   
 实际上这个工作苦的一逼，产品的锅交付都得背，然后产品做不了的功能要想各种办法workaround。 [t.co/0KpnvibR8p](https://t.co/0KpnvibR8p)
 
-![](https://pbs.twimg.com/media/HPApM0JacAADnZ_.jpg)
+![[笔记同步助手/images/2ee6374418211f6faaf5ff28e5a9ce6b_MD5.jpg]]
 
 ---
 

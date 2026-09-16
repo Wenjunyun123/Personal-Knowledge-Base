@@ -43,7 +43,7 @@ Python 开源工具，MIT 许可证，v0.2.0：
   
 [github.com/runesleo/bookmark-digest](https://github.com/runesleo/bookmark-digest)
 
-![](https://pbs.twimg.com/media/HRHFYjCaUAApGM6.jpg)
+![[笔记同步助手/images/3c9420ab1cc178140a5824b3bd254629_MD5.jpg]]
 
 ---
 

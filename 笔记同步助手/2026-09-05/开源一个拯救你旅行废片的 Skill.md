@@ -8,9 +8,9 @@ tags:
 id: 007e2674-ef98-4df6-a410-e2ce4701325c
 ---
 
-![cover](https://pbs.twimg.com/media/HRSqFo0aQAA6a2g.jpg)
+![[笔记同步助手/images/52439a32aedd405f77120474ef9c176e_MD5.jpg|cover]]
 
-![](https://pbs.twimg.com/media/HRSqM2-bcAEQdLl.jpg)
+![[笔记同步助手/images/13ca37f7444fe3475b049c1b146745c4_MD5.jpg]]
 
 前几天回了趟山西老家，去大同转了一圈。
 
@@ -24,7 +24,7 @@ id: 007e2674-ef98-4df6-a410-e2ce4701325c
 
 像杂志编辑做的那种有排版、有字体设计、有文化信息、建筑主体被认真对待过的海报。
 
-![](https://pbs.twimg.com/media/HRSqRKFbcAA80ao.jpg)
+![[笔记同步助手/images/0696261023da65b32d70871fa1801523_MD5.jpg]]
 
 做完之后，效果超出预期。于是把它整理成了一个开源 Skill：
 
@@ -36,19 +36,19 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 在讲细节之前，先放几组对比图。左边是原图，右边是生成的海报。
 
-![](https://pbs.twimg.com/media/HRSqhVLakAA1FsY.jpg)
+![[笔记同步助手/images/24c9ecd21d6223a3bf8dc2f6268065cb_MD5.jpg]]
 
 这是在大同城墙上透过松树拍的。原图光线不错但构图比较随意，前景的树枝占了大半画面。
 
 海报把城楼提取出来做了主体，加上了"大同城墙"的字形设计、始建年份 1372、四座城门的名字，整张图的信息密度和视觉完成度完全不一样了。
 
-![](https://pbs.twimg.com/media/HRSqjuVbgAAye1d.jpg)
+![[笔记同步助手/images/1a16a5ee919644ad30c7bb9df5de215a_MD5.jpg]]
 
 这是大同东南邑的既下山酒店。原图是个标准的建筑摄影角度，水面倒影很漂亮，但就是一张普通的旅行照。
 
 做成海报之后，加了竖排的"东南邑"、中英文混排的标题，建筑被重新处理过——纸质纹理、分区调色，像一张正经的建筑杂志内页。
 
-![](https://pbs.twimg.com/media/HRSqoqNbUAE1Ptc.jpg)
+![[笔记同步助手/images/ce11a7538a9e9989d57062986c0361d6_MD5.jpg]]
 
 这张是大理喜洲的紫藤花和飞檐。原图本身就很漂亮了，但海报做了一件有意思的事：
 
@@ -64,7 +64,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 同一套模板、同一种字体、同一个配色，发出去一眼就能看出是同一个工具生成的。
 
-![](https://pbs.twimg.com/media/HRSquLFbYAA9nIE.jpg)
+![[笔记同步助手/images/e22e06fefa710e1a201d2109bd6bdb67_MD5.jpg]]
 
 营造有一套完整的 Design Token 系统，内置了几十个经过验证的 Recipe（风格配方），每个 Recipe 对应一套字体谱系、材质层级、配色逻辑和排版骨架。
 
@@ -74,7 +74,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 然后从 Recipe 库里匹配一个兼容的方向。
 
-![](https://pbs.twimg.com/media/HRSqy38aMAAMOjo.jpg)
+![[笔记同步助手/images/a6a3b9f48495cac9899521b31f94ee74_MD5.jpg]]
 
 你看这四张：善化寺藻井用的是古纸底、木刻字形；
 
@@ -88,7 +88,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 组合起来可能有上千种变化，但每一种都是视觉上说得通的。
 
-![](https://pbs.twimg.com/media/HRSq24ybgAAVp7x.jpg)
+![[笔记同步助手/images/4a6a21702126fed64d7673d4c69715e6_MD5.jpg]]
 
 自动检索文化背景
 
@@ -98,11 +98,11 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 检索出这是明嘉靖七年（1528）潞城王所书，然后把这些信息排进海报里。
 
-![](https://pbs.twimg.com/media/HRSq6MfaUAAnn1o.jpg)
+![[笔记同步助手/images/91028dbf83835b0d02992a89410bbcbd_MD5.jpg]]
 
 你给它一张应县木塔的照片，它会标注出"1056 · 辽 · 清宁二年"、"五层六檐 纯木楼阁"。
 
-![](https://pbs.twimg.com/media/HRSq_3wbgAAX7OJ.jpg)
+![[笔记同步助手/images/b613da2b11e6ec6c70f6211853a62239_MD5.jpg]]
 
 这些信息都经过事实分级——照片里能看到的、可以核实的、用户确认的才会写进海报。
 
@@ -118,7 +118,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 如果你想给朋友展示"我的照片被做成了什么样"，可以选择生成原图对照拼图。
 
-![](https://pbs.twimg.com/media/HRSrEsfa0AA-GMG.jpg)
+![[笔记同步助手/images/e7f5f5ddaa4b13e0f49b4ca781229e27_MD5.jpg]]
 
 左边原图，右边海报，放在一起冲击力很强。
 
@@ -134,7 +134,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 这里要强调的是"融合"，不是把几张图缩小了往网格里一塞。
 
-![](https://pbs.twimg.com/media/HRSrH6UbkAEPMwL.jpg)
+![[笔记同步助手/images/683c2a2375be0d1321a6c5144aab9265_MD5.jpg]]
 
 比如这张大同东南邑的小南唐茶食店。
 
@@ -148,7 +148,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 虽然我做这个 Skill 的起因是古建筑照片，但它的适用范围比想象的宽。
 
-![](https://pbs.twimg.com/media/HRSrMhubkAA_XnQ.jpg)
+![[笔记同步助手/images/004d23a3790be2ed3ecbb5d8d4b74f4b_MD5.jpg]]
 
 这是在大同一家咖啡馆拍的沙棘美式。
 
@@ -168,7 +168,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 可以要求它生成一张带有九宫格的分镜，以及搭配的提示词。
 
-![](https://pbs.twimg.com/media/HRSrRvSa8AAeoFY.jpg)
+![[笔记同步助手/images/d6136a37064cb9fc4f2d89429715fe72_MD5.jpg]]
 
 你只需要把这个分镜图片和提示词发给 Seedance 2.0 或者是 MiniMax H 3。
 
@@ -186,14 +186,14 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 营造的做法完全不同。它同时向图像模型输入三样东西：
 
-![](https://pbs.twimg.com/media/HRSsC5fbsAAUlXi.jpg)
+![[笔记同步助手/images/0d8b4b36b7ded60809726e81da2cf8a7_MD5.jpg]]
 
 1.  校正后的原图：负责建筑的真实身份，屋坡、飞檐、匾额、轮廓这些"身份锚点"必须保留
 2.  一张主导参考图：负责完整的视觉机制：主体怎么处理、背景怎么参与、图文怎么互动
 3.  一张排版垫图：负责文字的位置、大小、层级、遮挡关系。
 4.  一段提示词：负责告诉模型如何将这几个图片中的样式提取出来，同时还需要补充哪些样式。
 
-![](https://pbs.twimg.com/media/HRSsHj9bcAEJRR5.jpg)
+![[笔记同步助手/images/856530da2373d4869dc82668a6543f97_MD5.jpg]]
 
 图像模型的任务是把这四样东西融合成一个统一的画面。
 
@@ -209,13 +209,13 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 然后逐字定义宽窄比例、笔画对比、起收笔特征、重心高低、字腔大小、表面媒介。
 
-![](https://pbs.twimg.com/media/HRSsScSbEAA57z1.jpg)
+![[笔记同步助手/images/7b2bd7505f7fad4239ef107f9801d8ac_MD5.jpg]]
 
 比如关帝庙"木构"这两个字：字形偏向构筑型宋体，横竖对比明显，笔画有石刻质感，字腔较开（因为背景是高密度的斗栱纹样，字形太复杂会互相打架）。
 
 而且"木"字的一部分被斗栱实体遮挡了，这种遮挡是提前设计好的，不是意外裁切。
 
-![](https://pbs.twimg.com/media/HRSsa-yawAAIasa.jpg)
+![[笔记同步助手/images/2ea61926b21387be66e1fecab2833a0f_MD5.jpg]]
 
 小字用的是另一套字族，和标题建立层级差异。
 
@@ -231,7 +231,7 @@ Yingzao · 营造（https://github.com/op7418/guizang-yingzao-skill）。
 
 不会无中生有地加一个和照片毫无关系的强调色。
 
-![](https://pbs.twimg.com/media/HRSsfB3agAA96FY.jpg)
+![[笔记同步助手/images/64c8243632402f3c74a90f61466da3ad_MD5.jpg]]
 
 装饰也是克制的。
 
@@ -265,7 +265,7 @@ AI 在视觉创作里应该扮演什么角色？
 
 成图直接交给你，你觉得哪里不对，告诉它，它再定向修改。
 
-![](https://pbs.twimg.com/media/HRSsjH2bwAAW2p_.jpg)
+![[笔记同步助手/images/7960a9039e75e0f39556127e15c938b5_MD5.jpg]]
 
 这个工作方式和很多"全自动"工具不一样。
 

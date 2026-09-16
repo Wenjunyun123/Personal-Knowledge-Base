@@ -22,7 +22,7 @@ id: 98ada414-b74a-4d3d-a71f-272b0d5feaf6
 
 所以，我最近半个月一直在尝试迭代让agent操控电脑的能力，这是我让claude code操控blender制作的巧克力甜甜圈模型，你可以感受下👇
 
-![](https://relay-1.bijitongbu.site/p/0ffe1a37e6402e944bba98da94957753.png)
+![[笔记同步助手/images/8fab385d05ff16900461b6793c76a7b9_MD5.gif]]
 
 甜甜圈在后面，先看这艘船，这是同一天同一个skill做的另一件事。我给Claude Code的任务就一句话：帮我调用codex生成多张高清、细节丰富的10万吨级邮轮照片，然后用skill操控Blender去生成渲染出和照片几乎一致的模型。
 
@@ -36,7 +36,7 @@ id: 98ada414-b74a-4d3d-a71f-272b0d5feaf6
 
 再看甜甜圈👇
 
-![](https://relay-1.bijitongbu.site/p/4203e759c0b510958ba2246fbc85d5cc.png)
+![[笔记同步助手/images/bb01eafe87b3a273d5a95eb01c902d0c_MD5.gif]]
 
 面团上的气孔、油炸时浮在油面留下的那圈浅色腰线、只淋了上半截的巧克力和往下淌的几处垂滴、三百颗随机颜色平躺贴在淋面上的糖针、盘子上的碎屑，还有后面那个被虚化掉的第二个甜甜圈，也全是Claude Code自己建的。渲完之后我又让它当了回导演，打了120帧相机关键帧一镜到底，就是上面这条。
 

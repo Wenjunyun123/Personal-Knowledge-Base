@@ -27,7 +27,7 @@ AI 写代码最大的浪费，不是模型不够强，而是你得一直盯着�
 如果你已经在用 AI 编程工具，这个工作流值得研究一下。  
 🔗：[github.com/multica-ai/multica](http://github.com/multica-ai/multica)
 
-![](https://pbs.twimg.com/media/HRVP4cEbkAAAF73.png)
+![[笔记同步助手/images/aee4c63637fe15ad62b9045a2928728f_MD5.png]]
 
 ---
 
@@ -45,7 +45,7 @@ AI 写代码最大的浪费，不是模型不够强，而是你得一直盯着�
 > 
 > running claude code and codex as separate terminal windows is where i was losing time. an agent can sit on a permission prompt for 30 min before you notice. i built 49agents to keep every session on one canvas and get a ping from my phone when one is blocked. [t.co/CZWJka4sZl](https://t.co/CZWJka4sZl)
 > 
-> ![](https://pbs.twimg.com/media/HRYrzbla0AAuBoE.jpg)
+> ![[笔记同步助手/images/d2a59f800179c07e6952b24df62e64bb_MD5.jpg]]
 
 > **OpenAI @OpenAI**
 > 

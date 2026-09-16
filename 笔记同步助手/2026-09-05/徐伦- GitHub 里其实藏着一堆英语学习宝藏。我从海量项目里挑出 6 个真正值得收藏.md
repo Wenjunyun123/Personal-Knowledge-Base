@@ -36,9 +36,9 @@ GitHub：[github.com/shimohq/chinese-programmer…](https://github.com/shimohq/c
 主动回忆 + 间隔重复，对抗遗忘最硬核。单词只是入门玩法，任何知识都能用它记牢。  
 GitHub：[github.com/ankitects/anki](https://github.com/ankitects/anki)
 
-![](https://pbs.twimg.com/media/HRXhqvRaUAAJ9DT.jpg)
+![[笔记同步助手/images/353434b636188a53c39f2ea97c31621e_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HRXhq67bwAAssDg.jpg)
+![[笔记同步助手/images/3424983a4f5351aada20ef9e810c79ce_MD5.jpg]]
 
 ---
 
@@ -170,7 +170,7 @@ GitHub：[github.com/ankitects/anki](https://github.com/ankitects/anki)
 >   
 > 如果江湖上人手一本，那江湖不会变得更好混，只会多出更多太监。
 > 
-> ![](https://pbs.twimg.com/media/HRStT2yaAAAhcdh.jpg)
+> ![[笔记同步助手/images/cd7afad36400a4909ab4774ebfc78d0a_MD5.jpg]]
 
 ---
 

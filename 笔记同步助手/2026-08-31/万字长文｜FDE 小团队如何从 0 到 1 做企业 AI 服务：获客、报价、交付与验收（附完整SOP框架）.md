@@ -8,7 +8,7 @@ tags:
 id: 80548711-44b2-4e92-b42d-0cd441b3f54b
 ---
 
-![cover](https://pbs.twimg.com/media/HQzGpd8W4AExszX.jpg)
+![[笔记同步助手/images/d46ee61c79e898fed2a06fac09b7a460_MD5.jpg|cover]]
 
 很多人第一次接触企业 AI 服务，最容易把它理解成一个技术类工作：
 
@@ -44,7 +44,7 @@ id: 80548711-44b2-4e92-b42d-0cd441b3f54b
 
 线索 → 初筛 → 现场调研 → 需求边界 → 报价 → SOW → 开发交付 → 测试验收 → 交接回款 → 复盘复用。
 
-![](https://pbs.twimg.com/media/HQzEu-jXgAAl2Un.jpg)
+![[笔记同步助手/images/b3af650c25fc5171e8643c6b82261c3d_MD5.jpg]]
 
 小团队做企业 AI 服务，拼的不是谁能把 Agent 演示得更炫，而是谁能把这十步稳稳走完。
 
@@ -152,7 +152,7 @@ id: 80548711-44b2-4e92-b42d-0cd441b3f54b
 
 只有泛泛问“企业 Agent 怎么做”，却不愿提供背景、资料和目标的人，不应该立刻获得一份免费完整方案。
 
-![](https://pbs.twimg.com/media/HQzE_ibWEAA1Yat.jpg)
+![[笔记同步助手/images/f54588dc9410709670ec1d5f6d1d26b6_MD5.jpg]]
 
 ## 三、选客户，往往比选技术更重要
 
@@ -240,7 +240,7 @@ AI 可以非常准确地处理一份错误知识。
 
 客户的愿望可以很大，但第一阶段必须足够小。
 
-![](https://pbs.twimg.com/media/HQzFlYmWoAA-IT5.jpg)
+![[笔记同步助手/images/4327a2fc6509057b043f1bfc5580d47f_MD5.jpg]]
 
 ## 五、报价不是开发天数乘以一个单价
 
@@ -318,7 +318,7 @@ SOW 不是为了跟客户对抗。
 
 它是为了让双方在项目开始前，对同一个结果有相同理解。
 
-![](https://pbs.twimg.com/media/HQzFuGxWQAAYeQz.jpg)
+![[笔记同步助手/images/c8ffb1146dcaff007c4f2ca97a4cd5d3_MD5.jpg]]
 
 ## 七、做企业 AI，不要为了证明技术先进而硬上 AI
 
@@ -340,7 +340,7 @@ SOW 不是为了跟客户对抗。
 
 企业买的是可靠结果，不是要FDE来证明所有环节都能自动化。
 
-![](https://pbs.twimg.com/media/HQzF0AEWQAAxqC6.jpg)
+![[笔记同步助手/images/6f6a16e5b09181e3c06fa3cefe6c92e1_MD5.jpg]]
 
 ## 八、AI Coding 可以加速开发，但不能取消工程
 
@@ -397,7 +397,7 @@ AI 项目不能用“我试了几次，感觉还不错”验收。
 
 技术团队负责把系统做出来，业务专家负责定义什么叫真正答对。
 
-![](https://pbs.twimg.com/media/HQzGA9ZXsAA1d7c.jpg)
+![[笔记同步助手/images/41ea74a5e56a6832abaf3e2d825a1478_MD5.jpg]]
 
 ## 十、需求变更时，预算、周期和范围至少要动
 
@@ -423,7 +423,7 @@ POC 没有验证到的问题，可能在正式开发时暴露；原来低估的�
 
 项目拖到最后，双方对“当初答应过什么”的记忆往往完全不同。
 
-![](https://pbs.twimg.com/media/HQzGHuuXwAAiPE6.jpg)
+![[笔记同步助手/images/c6b50f16afd61376137f62aa292b17ec_MD5.jpg]]
 
 ## 十一、验收、证据和回款，要从第一天开始准备
 
@@ -472,7 +472,7 @@ POC 没有验证到的问题，可能在正式开发时暴露；原来低估的�
 
 真实项目 → 形成判断 → 沉淀方法与模板 → 对外分享 → 获得新线索 → 初筛和诊断 → 新项目交付 → 产生新案例。
 
-![](https://pbs.twimg.com/media/HQzGO3FXwAAoiCV.jpg)
+![[笔记同步助手/images/02d5375dcfcb4d9ad9d8e3373073be65_MD5.jpg]]
 
 截至目前，我们仍在验证内容到付费咨询的这条新增链路，不能把它写成已经稳定跑通的结果。
 

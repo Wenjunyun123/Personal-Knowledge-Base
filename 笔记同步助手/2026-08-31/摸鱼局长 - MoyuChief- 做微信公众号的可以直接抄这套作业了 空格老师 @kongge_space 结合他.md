@@ -18,7 +18,7 @@ id: 14bcb55b-18aa-4abb-9a14-9d7c6f3afe6a
   
 以后不用再到处找工具了，想试试的直接安装就能用：[agent.creao.ai/install/4a5e310f-eda4-…](https://agent.creao.ai/install/4a5e310f-eda4-4315-9524-68051277d261?version=838013c8-0e08-425e-8917-97aeb81a8632) [t.co/4mOCftZ9RM](https://t.co/4mOCftZ9RM)
 
-![](https://pbs.twimg.com/media/HQ9Tr7lbgAAfFdR.jpg)
+![[笔记同步助手/images/3993c1d8978e1fb04adc8dcc40fc5e00_MD5.jpg]]
 
 ---
 

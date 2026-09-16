@@ -22,9 +22,9 @@ id: 10aafe32-9b39-4ae8-896a-78f4ef4dea8c
   
 详细地址：[github.com/emilkowalski/skills/tree/m…](https://github.com/emilkowalski/skills/tree/main/skills/apple-design) [t.co/vQUoGfc1wz](https://t.co/vQUoGfc1wz)
 
-![](https://pbs.twimg.com/media/HRWw6lqWgAYp9KU.jpg)
+![[笔记同步助手/images/14a0cab9af8ef8c5dc03cffd930312ad_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HRWw7G1W0AQg_jO.jpg)
+![[笔记同步助手/images/d7334b8292e323a2613fb18e9b752c4d_MD5.jpg]]
 
 ---
 
@@ -64,7 +64,7 @@ id: 10aafe32-9b39-4ae8-896a-78f4ef4dea8c
 >   
 > 我看也文理科都没啥优势了🤡 [t.co/xM8LNB7COr](https://t.co/xM8LNB7COr)
 > 
-> ![](https://pbs.twimg.com/media/HRTPPHca4AAJ4dh.jpg)
+> ![[笔记同步助手/images/19653e7a27bf11b3e8f87f884359968e_MD5.jpg]]
 
 ---
 

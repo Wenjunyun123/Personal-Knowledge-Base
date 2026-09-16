@@ -24,7 +24,7 @@ GitHub：[github.com/Vincentwei1021/video-talkc…](http://github.com/Vincentwei
   
 底层用的是 Remotion，支持 Claude Code 和 Codex 安装。正在做知识类口播、产品讲解视频的朋友可以试试。
 
-![](https://pbs.twimg.com/media/HRVKhLYaQAA2sBL.jpg)
+![[笔记同步助手/images/28434b25a5dee016ab9d04ef0f4e7188_MD5.jpg]]
 
 ---
 
@@ -62,7 +62,7 @@ GitHub：[github.com/Vincentwei1021/video-talkc…](http://github.com/Vincentwei
 >   
 > 想在它基础上加自己策略的也方便。提醒选股工具只管筛形态，买不买还得自己拿主意。
 > 
-> ![](https://pbs.twimg.com/media/HRWBcusaIAAaYPY.jpg)
+> ![[笔记同步助手/images/aac36f2e6ad1540521ed6f42bac10909_MD5.jpg]]
 
 ---
 

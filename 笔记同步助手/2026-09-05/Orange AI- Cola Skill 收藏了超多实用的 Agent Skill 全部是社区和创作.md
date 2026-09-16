@@ -17,7 +17,7 @@ Cola Skill 收藏了超多实用的 Agent Skill
 就可以来搜搜看  
 [colaskill.com](https://colaskill.com) [t.co/rKUKNtCAUt](https://t.co/rKUKNtCAUt)
 
-![](https://pbs.twimg.com/media/HRSgxsiaQAAOol-.jpg)
+![[笔记同步助手/images/b700c089cd00170a99343655d794653d_MD5.jpg]]
 
 ---
 
