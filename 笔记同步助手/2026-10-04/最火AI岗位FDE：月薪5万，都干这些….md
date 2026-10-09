@@ -199,7 +199,7 @@ Zaniel和企业的合作有两种模式，一种是项目制，另一种则是�
 
 他运营着一个叫HA7CH的FDE社群，通过办线下交流会和黑客松，撮合想要AI改造的企业和独立接单的FDE签下订单。
 
-> ![](https://relay-1.bijitongbu.site/p/97e28065ce25bfe0f6549c06f57738a2.png)
+> ![[笔记同步助手/images/2064f4d462cc4c8578b2508c026d04c0_MD5.png]]
 
 ###### **△**AI生成
 

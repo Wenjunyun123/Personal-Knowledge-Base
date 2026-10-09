@@ -3,7 +3,7 @@
   "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
   "apiKey": "o56E76wGODoXICL_pXhCZyl7PL2o",
   "filter": "ALL",
-  "syncAt": "2026-10-07T20:28:53.381+08:00",
+  "syncAt": "2026-10-09T00:01:40.852+08:00",
   "customQuery": "in:all",
   "customQueryNormalized": true,
   "template": "{{{content}}}",
@@ -57,7 +57,7 @@
   "diaryLinkTemplate": "- {{{link}}}",
   "diaryLinkMaxLength": 0,
   "deviceSyncCursors": {
-    "desktop-mquhfjog-dcci": "2026-10-07T20:28:53.381+08:00"
+    "desktop-mquhfjog-dcci": "2026-10-09T00:01:40.852+08:00"
   },
   "initialSyncCompleted": true,
   "firstSyncAutoOpened": true,
