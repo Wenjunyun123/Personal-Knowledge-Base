@@ -7,7 +7,7 @@ tags:
   - knowledge-base/index
 sources: []
 created: 2026-08-10
-updated: 2026-08-11
+updated: 2026-11-24
 status: growing
 ---
 
@@ -27,6 +27,7 @@ status: growing
 ## 主题
 
 - [[笔记同步助手/wiki/topics/AI 辅助个人知识管理]]
+- [[笔记同步助手/wiki/topics/AI 前端设计与交付实践路线]]
 
 ## 核心概念
 
