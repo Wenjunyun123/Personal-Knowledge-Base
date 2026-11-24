@@ -26,13 +26,13 @@ GitHub：[github.com/Ojhaharsh/30u30](http://github.com/Ojhaharsh/30u30)
   
 想转 AI 方向的学生，或者用了很久 ChatGPT、想弄明白背后原理的，可以从第一天开始跟。
 
-![](https://pbs.twimg.com/media/HVHNPErawAALzIX.jpg)
+![[笔记同步助手/images/50c6c8150fff9d7db73333087240dfcc_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HVHNPEqbwAAHpki.jpg)
+![[笔记同步助手/images/2f48a49939ce9b837a3b767729f09251_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HVHNPE1aIAA9ma5.jpg)
+![[笔记同步助手/images/5ae80642a6bdfa2098ef0bea8dd276fd_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HVHNPEpbgAAWEGy.jpg)
+![[笔记同步助手/images/2dc07f3045a52ada7030a4fe156c60b6_MD5.jpg]]
 
 ---
 

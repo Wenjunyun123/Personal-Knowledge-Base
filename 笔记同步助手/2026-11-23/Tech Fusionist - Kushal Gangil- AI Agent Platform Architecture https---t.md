@@ -12,7 +12,7 @@ id: 2dc7815f-5a16-4554-b1f4-d81f3d941b5f
 
 AI Agent Platform Architecture [t.co/iDaslmG8WT](https://t.co/iDaslmG8WT)
 
-![](https://pbs.twimg.com/media/HWy05zha0AADDdp.jpg)
+![[笔记同步助手/images/6ace44ebf53b380c033757465a0e8abb_MD5.jpg]]
 
 ---
 

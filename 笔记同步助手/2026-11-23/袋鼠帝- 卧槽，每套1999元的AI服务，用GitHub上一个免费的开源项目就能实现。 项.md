@@ -61,7 +61,7 @@ id: 3dabf124-b988-4db8-a660-ee3093fc70e9
 >   
 > 地址见评论区
 > 
-> ![](https://pbs.twimg.com/media/HXvVwn8bsAEzXe0.jpg)
+> ![[笔记同步助手/images/a979e5590d03d653fb2ad0168eae63a4_MD5.jpg]]
 
 ---
 

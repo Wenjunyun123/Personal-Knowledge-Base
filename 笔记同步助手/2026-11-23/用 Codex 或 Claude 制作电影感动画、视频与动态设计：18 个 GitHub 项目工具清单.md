@@ -14,7 +14,7 @@ id: 0149da55-11e6-4384-9af8-461ed55c9ec5
 
 This note organizes a collection of GitHub projects recommended by the creator. They cover cinematic product promos, narrated explainer videos, professional screen recordings, continuous-shot animation, 3D scenes, visual effects, and web- or React-based video production tools.
 
-![视频开场画面，展示 Codex 或 Claude 制作动画、电影感视频与动态设计的主题](https://relay-1.bijitongbu.site/p/453e55080435305e425b21ee401a4342.jpg)
+![[笔记同步助手/images/ac88652e1b6ae165aa01b7145444a9b5_MD5.jpg|视频开场画面，展示 Codex 或 Claude 制作动画、电影感视频与动态设计的主题]]
 
 视频开场画面，展示 Codex 或 Claude 制作动画、电影感视频与动态设计的主题
 
@@ -122,7 +122,7 @@ Impeccable analyzes AI-generated designs and helps improve their quality and pro
 
 The creator's original description of Taste Skill is truncated, so it is best treated as a lead for exploring the project's features and usage further.
 
-![视频中的 GitHub 项目清单与工具链接页面](https://relay-1.bijitongbu.site/p/b655640da01785d14bdbb09e6e1d9f6a.jpg)
+![[笔记同步助手/images/8f3247250fd471b8c6dd09bf336738c5_MD5.jpg|视频中的 GitHub 项目清单与工具链接页面]]
 
 视频中的 GitHub 项目清单与工具链接页面
 

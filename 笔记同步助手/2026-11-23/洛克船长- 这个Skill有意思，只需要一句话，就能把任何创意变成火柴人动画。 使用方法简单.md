@@ -37,7 +37,7 @@ AI 就会自动生成对应的代码，并直接制作出动画。
 >   
 > 地址见评论区
 > 
-> ![](https://pbs.twimg.com/media/HXvVwn8bsAEzXe0.jpg)
+> ![[笔记同步助手/images/a979e5590d03d653fb2ad0168eae63a4_MD5.jpg]]
 
 ---
 

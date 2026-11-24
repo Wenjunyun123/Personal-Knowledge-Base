@@ -20,7 +20,7 @@ id: 8a7b4dec-8778-4538-a3df-88f0ef085772
   
 [huarun.win](https://huarun.win/) [t.co/4r5UVSQLm0](https://t.co/4r5UVSQLm0)
 
-![](https://pbs.twimg.com/media/HXyBFVVbAAA1z78.jpg)
+![[笔记同步助手/images/0443ba9c661f7ecac63374bf3d07a731_MD5.jpg]]
 
 ---
 

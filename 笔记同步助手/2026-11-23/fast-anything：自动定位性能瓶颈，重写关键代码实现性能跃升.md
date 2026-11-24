@@ -14,7 +14,7 @@ id: d1feb5af-9bf8-4557-9a88-091677bedcc1
 
 开源项目 **fast-anything** 号称只需一条命令，就能让程序性能提升 116 倍。它并不要求重写整个项目，而是自动定位其中最慢的 5% 代码，针对关键部分进行优化。
 
-![fast-anything 自动分析并优化项目性能的关键代码](https://relay-1.bijitongbu.site/p/9cf09055405451c72002de8ca199b664.jpg)
+![[笔记同步助手/images/2893c9e31d8d617f71064f1f7c7bf376_MD5.jpg|fast-anything 自动分析并优化项目性能的关键代码]]
 
 fast-anything 自动分析并优化项目性能的关键代码
 

@@ -8,13 +8,13 @@ tags:
 id: e017b04b-4609-4039-bceb-1c9a871e180e
 ---
 
-![cover](https://pbs.twimg.com/media/HXo4A8cacAAYlyL.jpg)
+![[笔记同步助手/images/6193f29c5253bb35e717699bf8daca9a_MD5.jpg|cover]]
 
 上期 30 万人看过，并且在评论区催爆的 AI 剪辑教程，它来了
 
 上期视频我们用同一个脚本，1 个人工剪辑，1 个 AI 剪辑，完整制作只用了 3 天的时间
 
-![](https://pbs.twimg.com/media/HXoXNEOacAAPt1b.jpg)
+![[笔记同步助手/images/386fc2c96dce4f643393a4fefa3a428c_MD5.jpg]]
 
 换以前，单条视频人工剪辑至少也需要 1 周的时间
 
@@ -30,7 +30,7 @@ id: e017b04b-4609-4039-bceb-1c9a871e180e
 
 拿我们这期视频举例，下面就是这期视频我们内部的脚本文档
 
-![](https://pbs.twimg.com/media/HXjtnMxaEAAkXPu.jpg)
+![[笔记同步助手/images/e5893b054b2b4fb54b7929ef09f0920d_MD5.jpg]]
 
 最左侧是本期视频的口播词，中间一列，右侧你可以根据需要添加一些相关资料或参考
 
@@ -62,15 +62,15 @@ id: e017b04b-4609-4039-bceb-1c9a871e180e
 
 Opus 5.5 对于中国人的调色方法学习得不够好，所以如果你把生片交给 Claude 来处理美颜、调色，效果往往会比较差
 
-![](https://pbs.twimg.com/media/HXjtwuXbYAAQpOk.jpg)
+![[笔记同步助手/images/ca515da934fffd6cc8c838d610238256_MD5.jpg]]
 
-![](https://pbs.twimg.com/media/HXjt4CLbsAA9FiM.jpg)
+![[笔记同步助手/images/e9d059d14c563c5dbbc42a700325a1e2_MD5.jpg]]
 
 我们多轮尝试下来，发现最简单的方式，是给到它一张调好色的图片，让它按照这个图片效果，来将全片复刻成相同的效果
 
 那么你就能一步到位地得到一个调好颜色的全片
 
-![](https://pbs.twimg.com/media/HXjt_aNasAAZT3Z.jpg)
+![[笔记同步助手/images/250663c1494f891493e2d54c4987a9d3_MD5.jpg]]
 
 ## 分镜
 
@@ -82,7 +82,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 嗯？怎么视频还没发就已经 100 多个 Stars 了？
 
-![](https://pbs.twimg.com/media/HXjvB5HbsAAnkfT.jpg)
+![[笔记同步助手/images/47075cfca08ffb41dfbbd3820e4f72a1_MD5.jpg]]
 
 ## 配乐
 
@@ -100,7 +100,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 实测下来，效果还不错，比如这条视频的 BGM 就是 Claude 自己配的
 
-![](https://pbs.twimg.com/media/HXjvuxeboAAiU-u.jpg)
+![[笔记同步助手/images/7d682f2e86892c17d8596b4d27565b63_MD5.jpg]]
 
 ## 音效
 
@@ -114,7 +114,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 \`\`\` 帮我制作一个视频，脚本与相关资源通过飞书 CLI 来阅读该飞书文档链接。 画面上，根据文档中的内容，通过 dashi-animationstyle skill 帮我制作视频。 人物画面调色对照附件图片中的色调来调整。 配音上，BGM 使用附件中我给到你的音乐，音效通过 Openverse 项目来匹配合适的音效。 \`\`\`
 
-![](https://pbs.twimg.com/media/HXjv_wjakAAAXBf.jpg)
+![[笔记同步助手/images/b37590a5cf97ffe9c92ab75fa920a197_MD5.jpg]]
 
 如果是通过网站配乐，可以换成：
 
@@ -136,7 +136,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 我们通过一个小号来验证过这件事：一个制作精良的开头和普通开头，数据会有非常大的差距
 
-![](https://pbs.twimg.com/media/HXjwX23bEAAVKhT.jpg)
+![[笔记同步助手/images/d067574c15fce0b4e27d158b397660b5_MD5.jpg]]
 
 # 三、反馈与收尾
 
@@ -150,7 +150,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 如果问题有普遍性，可以打个全局问题的标签
 
-![](https://pbs.twimg.com/media/HXjxZh8aEAA9IKM.jpg)
+![[笔记同步助手/images/595385fd80095fbdb320661f3a07cf36_MD5.jpg]]
 
 反馈内容可以是视频节奏、信息表达、气口、敏感信息打码等等，这些都是 AI 可以直接理解的内容
 
@@ -164,15 +164,15 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 这样就可以达到你和 AI 并行完成任务的效果
 
-![](https://pbs.twimg.com/media/HXjxialasAAjpDR.jpg)
+![[笔记同步助手/images/41a47e59dfa7593aa513ebcd783c5de5_MD5.jpg]]
 
 当然，这个飞书文档的链接也可以分享出去，让你的同事一起来提修改意见，而不需要每个人都装一个 Claude
 
-![](https://pbs.twimg.com/media/HXjxqLfbAAAPr2n.jpg)
+![[笔记同步助手/images/122549e936cb5b735dec9a076a3ed208_MD5.jpg]]
 
 还有个方案是通过我制作的审片工作台来完成，能让你把这个流程压缩到更极致、更简单高效。如果大家感兴趣，我最近也会整理开放出来
 
-![](https://pbs.twimg.com/media/HXjx2NpbIAAPACB.jpg)
+![[笔记同步助手/images/89e6c2b1045949ae544ce51dd37ad4be_MD5.jpg]]
 
 这个过程持续两到三轮，就能得到一个高度可用的版本了
 
@@ -192,7 +192,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 虽然不高，但你要知道这全都是在一个 Claude 对话里完成的
 
-![](https://pbs.twimg.com/media/HXjz3lDasAEVZfm.jpg)
+![[笔记同步助手/images/0f12f3f8fd780b3108a54c9222873ca1_MD5.jpg]]
 
 如果你感兴趣，我们后续将会分享更多类似的经验
 
@@ -210,7 +210,7 @@ GitHub 地址：github.com/chuspeeism/dashi-animationstyle
 
 这个时候你就可以要求它导出剪映的工程文件，它会把分段的视频、字幕、配音都单独做好整理和处理，修改起来也会非常方便
 
-![](https://pbs.twimg.com/media/HXj1jDiakAAVvcs.jpg)
+![[笔记同步助手/images/92a15c33426ecf42eb4d670c4f0020bf_MD5.jpg]]
 
 # 最后
 

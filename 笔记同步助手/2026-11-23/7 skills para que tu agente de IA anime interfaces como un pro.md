@@ -54,21 +54,21 @@ id: 78a12dea-c9dc-4679-9f62-27edcd5a47c9
 -   Compara las opciones disponibles antes de decidir.
 -   Lee el texto de la forma correcta: **“The right way to read the text is to read the right way to read the text.”**
 
-![Image](https://relay-1.bijitongbu.site/p/a3d88b2d22af7a3e74044cf4a888dadf.jpg)
+![[笔记同步助手/images/8dd8952d08a609c2f0fae9c04e8858b0_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/89940b94894e5fae0304236d9f710320.jpg)
+![[笔记同步助手/images/65fc8a86e84e7846dcf2b3a49b5cada1_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/5dfaa19c2174c067e44129fb0cd279a2.jpg)
+![[笔记同步助手/images/22d40d5c8c21d04de344de47506b4e09_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/186b73a0091c526e6a74e9a19263b73a.jpg)
+![[笔记同步助手/images/6ead123c315fdeaa63a39ac8cc71476a_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/b013cc5fdb4f3e576522ef3926578af1.jpg)
+![[笔记同步助手/images/f0f4f21518173287ff6078ab388a661e_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/dca4ce78afca2c09600eb84ef430bcb5.jpg)
+![[笔记同步助手/images/338bdd0fc2468963b8d1c92682d4d3dd_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/5df0a7dcdfb4d4594010400d39f94770.jpg)
+![[笔记同步助手/images/76baf2f8cb7a0b3e50eb2bba0ed46379_MD5.jpg|Image]]
 
-![Image](https://relay-1.bijitongbu.site/p/a12799de5e03ff76659baa02b7e4141e.jpg)
+![[笔记同步助手/images/7d2174f138f1bcbc9fb996b59fb0b9d9_MD5.jpg|Image]]
 
 识别 1,825 字 · 本次计费 0 积分 · 积分余额 1128
 

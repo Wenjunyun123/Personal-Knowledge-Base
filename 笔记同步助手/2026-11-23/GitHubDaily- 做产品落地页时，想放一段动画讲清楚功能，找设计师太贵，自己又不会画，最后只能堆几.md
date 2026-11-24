@@ -24,7 +24,7 @@ GitHub：[github.com/nilbuild/stick-scene](http://github.com/nilbuild/stick-scen
   
 这种火柴人风格挺讨巧，比正经的产品演示视频轻松，放在官网首页也不突兀。
 
-![](https://pbs.twimg.com/media/HXtnHHnacAAo2iB.jpg)
+![[笔记同步助手/images/9464f57d5df5c72cb6c44914a56dd690_MD5.jpg]]
 
 ---
 
@@ -44,7 +44,7 @@ GitHub：[github.com/nilbuild/stick-scene](http://github.com/nilbuild/stick-scen
 >   
 > 地址见评论区
 > 
-> ![](https://pbs.twimg.com/media/HXvVwn8bsAEzXe0.jpg)
+> ![[笔记同步助手/images/a979e5590d03d653fb2ad0168eae63a4_MD5.jpg]]
 
 ---
 
