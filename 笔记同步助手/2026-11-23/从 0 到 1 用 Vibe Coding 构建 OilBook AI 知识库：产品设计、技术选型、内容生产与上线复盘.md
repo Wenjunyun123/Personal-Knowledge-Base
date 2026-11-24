@@ -245,7 +245,7 @@ Stripe 产品、订阅与支付配置
 
 关键约束是：每轮口述原文必须完整保留，不能在讨论过程中擅自改写；正式整理时只允许最小化调整，不应额外加入事实、观点或戏剧化表达。
 
-![AI 提问、作者语音回答的访谈式课程写作流程](https://relay-1.bijitongbu.site/p/058b9b58fbda305200af21cd6b32495c.jpg)
+![[笔记同步助手/images/7a7d8b5e3b2e064769b7892f454429fc_MD5.jpg|AI 提问、作者语音回答的访谈式课程写作流程]]
 
 AI 提问、作者语音回答的访谈式课程写作流程
 
@@ -261,7 +261,7 @@ AI 提问、作者语音回答的访谈式课程写作流程
 
 脚本只能处理可模式化的用词问题，不能替代人工通读。
 
-![文案审查脚本与 AI 味表达检查结果](https://relay-1.bijitongbu.site/p/aac030992898450032dceea4a5422785.jpg)
+![[笔记同步助手/images/c622fbacc95674cf22fd7c501d7db706_MD5.jpg|文案审查脚本与 AI 味表达检查结果]]
 
 文案审查脚本与 AI 味表达检查结果
 
@@ -287,7 +287,7 @@ AI 生图还可以用于：
 
 作者为封面和插图制定了专门规范，并保留每次生成使用的提示词。后续生成时，要求新图片不与现有素材重复，而是基于同一风格继续探索。
 
-![OilBook 文章配图、说明文字与视觉规范](https://relay-1.bijitongbu.site/p/2da6eaf4120fbd48301cb1a9cd309faf.jpg)
+![[笔记同步助手/images/a904ed2f75caaf11c39a1afdae54859d_MD5.jpg|OilBook 文章配图、说明文字与视觉规范]]
 
 OilBook 文章配图、说明文字与视觉规范
 
@@ -303,7 +303,7 @@ OilBook 文章配图、说明文字与视觉规范
 4.  Cloudflare 将子域名解析到 Vercel。
 5.  用户通过固定域名访问网站。
 
-![GitHub、Vercel 与 Cloudflare 自动部署链路](https://relay-1.bijitongbu.site/p/316492d13dcf2ac52045f308bb026d60.jpg)
+![[笔记同步助手/images/b4cd2141b52972637b45fe1361234191_MD5.jpg|GitHub、Vercel 与 Cloudflare 自动部署链路]]
 
 GitHub、Vercel 与 Cloudflare 自动部署链路
 
@@ -320,7 +320,7 @@ GitHub、Vercel 与 Cloudflare 自动部署链路
 
 上线前应让 AI 向自己的账号发送测试邮件，检查桌面端与移动端的排版、链接、深色模式适配和文本可读性。
 
-![OilBook Newsletter 与 HTML 邮件模板效果](https://relay-1.bijitongbu.site/p/ccebd30528741bfc18ad12162a076d3f.jpg)
+![[笔记同步助手/images/2e434e6cada8f14dd45f0fcffbf21d5e_MD5.jpg|OilBook Newsletter 与 HTML 邮件模板效果]]
 
 OilBook Newsletter 与 HTML 邮件模板效果
 
